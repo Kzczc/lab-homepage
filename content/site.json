@@ -92,7 +92,7 @@
         "Preprint": "https://arxiv.org/abs/2609.22235",
         "Code": "https://github.com/Kzczc/EMNLP2026-BizSage"
       },
-      "label": "EMNLP 2026 · FINDINGS · ACCEPTED",
+      "label": "EMNLP 2026 · Accepted",
       "id": "bizsage",
       "imageKind": "research"
     },
@@ -110,7 +110,7 @@
         "Paper": "https://aclanthology.org/2026.acl-long.1551/",
         "Code": "https://github.com/Kzczc/ACL2026-PRISM"
       },
-      "label": "ACL 2026 · MAIN CONFERENCE",
+      "label": "ACL 2026",
       "id": "prism",
       "imageKind": "research"
     },
@@ -126,7 +126,7 @@
       },
       "image": "./assets/cis-figure.webp",
       "imageKind": "research",
-      "label": "EMNLP 2026 · FINDINGS · ACCEPTED",
+      "label": "EMNLP 2026 · Accepted",
       "links": {
         "Preprint": "https://arxiv.org/abs/2609.03407",
         "Code": "https://github.com/Kzczc/EMNLP2026-Caught-in-the-Story"
@@ -147,17 +147,23 @@
         "Paper": "https://aclanthology.org/2025.findings-acl.489/",
         "Code": "https://github.com/CatherineHao/FinRipple"
       },
-      "label": "ACL 2025 · FINDINGS",
+      "label": "ACL 2025",
       "id": "finripple",
       "imageKind": "research"
     }
   ],
   "publications": [
     {
-      "title": "LENS: Large Pre-trained Transformer for Exploring Financial Time Series Regularities",
+      "title": {
+        "zh": "金融时间序列规律探索：大型预训练 Transformer",
+        "en": "LENS: Large Pre-trained Transformer for Exploring Financial Time Series Regularities"
+      },
       "authors": "Yuanjian Xu, Jianing Hao, Anxian Liu, Zhenzhuo Li, Shichang Meng, Shuai Yuan, Guang Zhang",
       "year": 2025,
-      "venue": "ACM International Conference on AI in Finance (ICAIF)",
+      "venue": {
+        "zh": "ACM ICAIF 2025",
+        "en": "ACM ICAIF 2025"
+      },
       "note": {
         "zh": "",
         "en": ""
@@ -170,13 +176,36 @@
       "topic": "markets",
       "verification": "publisher",
       "status": "published",
-      "id": "lens"
+      "id": "lens",
+      "conferencePriority": 5,
+      "core": true,
+      "figure": {
+        "image": "./assets/paper-lens.webp",
+        "caption": {
+          "zh": "LENS 金融时间序列预训练模型架构。",
+          "en": "The LENS architecture for financial time-series pretraining."
+        }
+      },
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "已发表",
+        "en": "Published"
+      }
     },
     {
-      "title": "The response of firm performance to female official leadership",
+      "title": {
+        "zh": "女性官员领导与企业绩效的响应关系",
+        "en": "The response of firm performance to female official leadership"
+      },
       "authors": "Zihao Qu, Guang Zhang",
       "year": 2025,
-      "venue": "Pacific-Basin Finance Journal",
+      "venue": {
+        "zh": "Pacific-Basin Finance Journal",
+        "en": "Pacific-Basin Finance Journal"
+      },
       "note": {
         "zh": "",
         "en": ""
@@ -189,13 +218,29 @@
       "topic": "markets",
       "verification": "publisher",
       "status": "published",
-      "id": "pub-1"
+      "id": "pub-1",
+      "conferencePriority": 2,
+      "core": false,
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "已发表",
+        "en": "Published"
+      }
     },
     {
-      "title": "Jump Detection Using Deep Learning: With Applications to Financial Time Series Data",
+      "title": {
+        "zh": "基于深度学习的跳跃检测：金融时间序列数据的应用",
+        "en": "Jump Detection Using Deep Learning: With Applications to Financial Time Series Data"
+      },
       "authors": "Weizheng Chen, Guang Zhang",
       "year": 2026,
-      "venue": "Computational Economics",
+      "venue": {
+        "zh": "Computational Economics",
+        "en": "Computational Economics"
+      },
       "note": {
         "zh": "2025 年在线发表；2026 年卷期。",
         "en": "Published online in 2025; assigned to the 2026 volume."
@@ -208,13 +253,29 @@
       "topic": "markets",
       "verification": "publisher",
       "status": "published",
-      "id": "jump"
+      "id": "jump",
+      "conferencePriority": 2,
+      "core": false,
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "已发表",
+        "en": "Published"
+      }
     },
     {
-      "title": "How to facilitate in-depth digitalization in enterprises?",
+      "title": {
+        "zh": "如何促进企业深度数字化？",
+        "en": "How to facilitate in-depth digitalization in enterprises?"
+      },
       "authors": "Junwei Wu, Cunyi Yang, Guang Zhang",
       "year": 2026,
-      "venue": "Applied Economics Letters",
+      "venue": {
+        "zh": "Applied Economics Letters",
+        "en": "Applied Economics Letters"
+      },
       "note": {
         "zh": "2024 年在线发表；2026 年卷期。",
         "en": "Published online in 2024; assigned to the 2026 volume."
@@ -227,13 +288,29 @@
       "topic": "markets",
       "verification": "publisher",
       "status": "published",
-      "id": "pub-3"
+      "id": "pub-3",
+      "conferencePriority": 2,
+      "core": false,
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "已发表",
+        "en": "Published"
+      }
     },
     {
-      "title": "COVID-19 Effects on Arbitrage Trading in the Energy Market",
+      "title": {
+        "zh": "新冠疫情对能源市场套利交易的影响",
+        "en": "COVID-19 Effects on Arbitrage Trading in the Energy Market"
+      },
       "authors": "Li Chen, Guang Zhang",
       "year": 2022,
-      "venue": "Energies",
+      "venue": {
+        "zh": "Energies",
+        "en": "Energies"
+      },
       "note": {
         "zh": "",
         "en": ""
@@ -246,13 +323,29 @@
       "topic": "markets",
       "verification": "publisher",
       "status": "published",
-      "id": "pub-4"
+      "id": "pub-4",
+      "conferencePriority": 2,
+      "core": false,
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "已发表",
+        "en": "Published"
+      }
     },
     {
-      "title": "Pairs trading with general state space models",
+      "title": {
+        "zh": "基于一般状态空间模型的配对交易",
+        "en": "Pairs trading with general state space models"
+      },
       "authors": "Guang Zhang",
       "year": 2021,
-      "venue": "Quantitative Finance",
+      "venue": {
+        "zh": "Quantitative Finance",
+        "en": "Quantitative Finance"
+      },
       "links": {
         "DOI": "https://doi.org/10.1080/14697688.2021.1890806",
         "Research page": "https://sites.google.com/view/guang-zhang/research"
@@ -261,13 +354,29 @@
       "topic": "markets",
       "verification": "publisher",
       "status": "published",
-      "id": "pub-5"
+      "id": "pub-5",
+      "conferencePriority": 2,
+      "core": false,
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "已发表",
+        "en": "Published"
+      }
     },
     {
-      "title": "FinFlier: Automating Graphical Overlays for Financial Visualizations With Knowledge-Grounding Large Language Model",
+      "title": {
+        "zh": "FinFlier：用知识增强大模型自动生成金融图表叠加层",
+        "en": "FinFlier: Automating Graphical Overlays for Financial Visualizations With Knowledge-Grounding Large Language Model"
+      },
       "authors": "Jianing Hao, Manling Yang, Qing Shi, Yuzhe Jiang, Guang Zhang, Wei Zeng",
       "year": 2025,
-      "venue": "IEEE TVCG",
+      "venue": {
+        "zh": "IEEE TVCG",
+        "en": "IEEE TVCG"
+      },
       "links": {
         "Code": "https://github.com/CatherineHao/FinFlier",
         "DOI": "https://doi.org/10.1109/tvcg.2024.3514138"
@@ -282,13 +391,36 @@
         "zh": "2024 年在线发表；2025 年正式卷期。",
         "en": "Online in 2024; assigned to the 2025 volume."
       },
-      "bibtex": "@article{finflier2025,\n  title = {FinFlier: Automating Graphical Overlays for Financial Visualizations With Knowledge-Grounding Large Language Model},\n  author = {Jianing Hao and Manling Yang and Qing Shi and Yuzhe Jiang and Guang Zhang and Wei Zeng},\n  year = {2025},\n  journal = {IEEE TVCG},\n  url = {https://github.com/CatherineHao/FinFlier}\n}"
+      "bibtex": "@article{finflier2025,\n  title = {FinFlier: Automating Graphical Overlays for Financial Visualizations With Knowledge-Grounding Large Language Model},\n  author = {Jianing Hao and Manling Yang and Qing Shi and Yuzhe Jiang and Guang Zhang and Wei Zeng},\n  year = {2025},\n  journal = {IEEE TVCG},\n  url = {https://github.com/CatherineHao/FinFlier}\n}",
+      "conferencePriority": 3,
+      "core": false,
+      "figure": {
+        "image": "./assets/paper-finflier.webp",
+        "caption": {
+          "zh": "FinFlier 从文本与表格数据生成金融图表叠加层的流程。",
+          "en": "FinFlier pipeline for grounded financial chart overlays."
+        }
+      },
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "已发表",
+        "en": "Published"
+      }
     },
     {
-      "title": "BizSage: A Self-Evolving Multi-Agent Framework for Business Research with Efficient Knowledge Retrieval",
+      "title": {
+        "zh": "BizSage：高效知识检索驱动的自进化多智能体商业研究",
+        "en": "BizSage: A Self-Evolving Multi-Agent Framework for Business Research with Efficient Knowledge Retrieval"
+      },
       "authors": "Yuhe Wu, Guangyu Wang, Jiaxin Liu, Guang Zhang",
       "year": 2026,
-      "venue": "EMNLP 2026 · Findings",
+      "venue": {
+        "zh": "EMNLP 2026",
+        "en": "EMNLP 2026"
+      },
       "links": {
         "arXiv": "https://arxiv.org/abs/2609.22235",
         "Code": "https://github.com/Kzczc/EMNLP2026-BizSage"
@@ -302,13 +434,36 @@
         "zh": "已接收；预印本与代码已公开。",
         "en": "Accepted; preprint and code available."
       },
-      "bibtex": "@misc{bizsage2026,\n  title = {BizSage: A Self-Evolving Multi-Agent Framework for Business Research with Efficient Knowledge Retrieval},\n  author = {Yuhe Wu and Guangyu Wang and Jiaxin Liu and Guang Zhang},\n  year = {2026},\n  note = {EMNLP 2026 · Findings},\n  url = {https://arxiv.org/abs/2609.22235}\n}"
+      "bibtex": "@misc{bizsage2026,\n  title = {BizSage: A Self-Evolving Multi-Agent Framework for Business Research with Efficient Knowledge Retrieval},\n  author = {Yuhe Wu and Guangyu Wang and Jiaxin Liu and Guang Zhang},\n  year = {2026},\n  note = {EMNLP 2026 · Findings},\n  url = {https://arxiv.org/abs/2609.22235}\n}",
+      "conferencePriority": 5,
+      "core": true,
+      "figure": {
+        "image": "./assets/paper-bizsage.webp",
+        "caption": {
+          "zh": "BizSage 的知识图谱检索与多智能体协作框架。",
+          "en": "BizSage retrieval and multi-agent collaboration framework."
+        }
+      },
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "已接收",
+        "en": "Accepted"
+      }
     },
     {
-      "title": "Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation",
+      "title": {
+        "zh": "Caught in the Story：多轮对话中的叙事俘获",
+        "en": "Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation"
+      },
       "authors": "Yuhe Wu, Guangyu Wang, Yujie Chen, Jiatong Zhang, Yuran Chen, Yutong Zhang, Xiyin Cheng, Wenpeng Cao, Zhuang Liu, Guang Zhang",
       "year": 2026,
-      "venue": "EMNLP 2026 · Findings",
+      "venue": {
+        "zh": "EMNLP 2026",
+        "en": "EMNLP 2026"
+      },
       "links": {
         "arXiv": "https://arxiv.org/abs/2609.03407",
         "Code": "https://github.com/Kzczc/EMNLP2026-Caught-in-the-Story"
@@ -322,13 +477,36 @@
         "zh": "已接收；预印本与代码已公开。",
         "en": "Accepted; preprint and code available."
       },
-      "bibtex": "@misc{cis2026,\n  title = {Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation},\n  author = {Yuhe Wu and Guangyu Wang and Yujie Chen and Jiatong Zhang and Yuran Chen and Yutong Zhang and Xiyin Cheng and Wenpeng Cao and Zhuang Liu and Guang Zhang},\n  year = {2026},\n  note = {EMNLP 2026 · Findings},\n  url = {https://arxiv.org/abs/2609.03407}\n}"
+      "bibtex": "@misc{cis2026,\n  title = {Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation},\n  author = {Yuhe Wu and Guangyu Wang and Yujie Chen and Jiatong Zhang and Yuran Chen and Yutong Zhang and Xiyin Cheng and Wenpeng Cao and Zhuang Liu and Guang Zhang},\n  year = {2026},\n  note = {EMNLP 2026 · Findings},\n  url = {https://arxiv.org/abs/2609.03407}\n}",
+      "conferencePriority": 5,
+      "core": true,
+      "figure": {
+        "image": "./assets/paper-cis.webp",
+        "caption": {
+          "zh": "Caught in the Story 的受控叙事构建流程。",
+          "en": "The controlled narrative construction pipeline of Caught in the Story."
+        }
+      },
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "已接收",
+        "en": "Accepted"
+      }
     },
     {
-      "title": "Towards Efficient LLMs Annealing with Principled Sample Selection",
+      "title": {
+        "zh": "LLM 退火阶段的高效训练：基于原理的样本选择",
+        "en": "Towards Efficient LLMs Annealing with Principled Sample Selection"
+      },
       "authors": "Yuanjian Xu, Jianing Hao, Wanbo Zhang, Zhong Li, Guang Zhang",
       "year": 2026,
-      "venue": "ICML 2026 · Spotlight",
+      "venue": {
+        "zh": "ICML 2026",
+        "en": "ICML 2026"
+      },
       "links": {
         "Code": "https://github.com/xuyj233/Direct"
       },
@@ -341,13 +519,37 @@
         "zh": "会议信息据作者公开仓库。",
         "en": "Conference details from the authors’ public release."
       },
-      "bibtex": "@inproceedings{direct2026,\n  title = {Towards Efficient LLMs Annealing with Principled Sample Selection},\n  author = {Yuanjian Xu and Jianing Hao and Wanbo Zhang and Zhong Li and Guang Zhang},\n  year = {2026},\n  booktitle = {ICML 2026 · Spotlight},\n  url = {https://github.com/xuyj233/Direct}\n}"
+      "bibtex": "@inproceedings{direct2026,\n  title = {Towards Efficient LLMs Annealing with Principled Sample Selection},\n  author = {Yuanjian Xu and Jianing Hao and Wanbo Zhang and Zhong Li and Guang Zhang},\n  year = {2026},\n  booktitle = {ICML 2026 · Spotlight},\n  url = {https://github.com/xuyj233/Direct}\n}",
+      "conferencePriority": 6,
+      "core": true,
+      "figure": {
+        "image": "./assets/paper-direct.webp",
+        "caption": {
+          "zh": "DiReCT 退火阶段的曲率感知样本选择机制。",
+          "en": "DiReCT curvature-aware sample selection during annealing."
+        }
+      },
+      "distinction": {
+        "zh": "Spotlight",
+        "en": "Spotlight"
+      },
+      "distinctionSource": "ICML 2026 public record / group publication record",
+      "statusLabel": {
+        "zh": "已发表",
+        "en": "Published"
+      }
     },
     {
-      "title": "PRISM: Probing Reasoning, Instruction, and Source Memory in LLM Hallucinations",
+      "title": {
+        "zh": "PRISM：定位大模型幻觉的来源",
+        "en": "PRISM: Probing Reasoning, Instruction, and Source Memory in LLM Hallucinations"
+      },
       "authors": "Yuhe Wu, Guangyu Wang, Yuran Chen, Jiatong Zhang, Yutong Zhang, Yujie Chen, Jiaming Shang, Guang Zhang, Zhuang Liu",
       "year": 2026,
-      "venue": "ACL 2026 · Main (Long Papers)",
+      "venue": {
+        "zh": "ACL 2026",
+        "en": "ACL 2026"
+      },
       "links": {
         "Code": "https://github.com/Kzczc/ACL2026-PRISM",
         "Paper": "https://aclanthology.org/2026.acl-long.1551/",
@@ -360,13 +562,36 @@
       "topic": "models",
       "acl": 2,
       "doi": "10.18653/v1/2026.acl-long.1551",
-      "bibtex": "@inproceedings{prism2026,\n  title = {PRISM: Probing Reasoning, Instruction, and Source Memory in LLM Hallucinations},\n  author = {Yuhe Wu and Guangyu Wang and Yuran Chen and Jiatong Zhang and Yutong Zhang and Yujie Chen and Jiaming Shang and Guang Zhang and Zhuang Liu},\n  year = {2026},\n  booktitle = {ACL 2026 · Main (Long Papers)},\n  url = {https://github.com/Kzczc/ACL2026-PRISM}\n}"
+      "bibtex": "@inproceedings{prism2026,\n  title = {PRISM: Probing Reasoning, Instruction, and Source Memory in LLM Hallucinations},\n  author = {Yuhe Wu and Guangyu Wang and Yuran Chen and Jiatong Zhang and Yutong Zhang and Yujie Chen and Jiaming Shang and Guang Zhang and Zhuang Liu},\n  year = {2026},\n  booktitle = {ACL 2026 · Main (Long Papers)},\n  url = {https://github.com/Kzczc/ACL2026-PRISM}\n}",
+      "conferencePriority": 6,
+      "core": true,
+      "figure": {
+        "image": "./assets/paper-prism.webp",
+        "caption": {
+          "zh": "PRISM 用于定位大模型幻觉来源的诊断框架。",
+          "en": "The PRISM diagnostic framework for locating hallucination sources."
+        }
+      },
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "已发表",
+        "en": "Published"
+      }
     },
     {
-      "title": "BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications",
+      "title": {
+        "zh": "BizCompass：商业知识与应用中的大模型推理能力基准",
+        "en": "BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications"
+      },
       "authors": "Jianing Hao, Yuhe Wu, Yuanjian Xu, Shichang Meng, Shuai Yuan, Wei Zeng, Zixuan Wang, Guang Zhang",
       "year": 2026,
-      "venue": "ACL 2026 · Findings",
+      "venue": {
+        "zh": "ACL 2026",
+        "en": "ACL 2026"
+      },
       "links": {
         "Code": "https://github.com/CatherineHao/BizCompass",
         "Paper": "https://aclanthology.org/2026.findings-acl.1198/",
@@ -379,13 +604,36 @@
       "topic": "models",
       "acl": 0,
       "doi": "10.18653/v1/2026.findings-acl.1198",
-      "bibtex": "@inproceedings{bizcompass2026,\n  title = {BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications},\n  author = {Jianing Hao and Yuhe Wu and Yuanjian Xu and Shichang Meng and Shuai Yuan and Wei Zeng and Zixuan Wang and Guang Zhang},\n  year = {2026},\n  booktitle = {ACL 2026 · Findings},\n  url = {https://github.com/CatherineHao/BizCompass}\n}"
+      "bibtex": "@inproceedings{bizcompass2026,\n  title = {BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications},\n  author = {Jianing Hao and Yuhe Wu and Yuanjian Xu and Shichang Meng and Shuai Yuan and Wei Zeng and Zixuan Wang and Guang Zhang},\n  year = {2026},\n  booktitle = {ACL 2026 · Findings},\n  url = {https://github.com/CatherineHao/BizCompass}\n}",
+      "conferencePriority": 6,
+      "core": true,
+      "figure": {
+        "image": "./assets/paper-bizcompass.webp",
+        "caption": {
+          "zh": "BizCompass 商业知识与应用基准的三阶段构建流程。",
+          "en": "The three-phase construction pipeline of BizCompass."
+        }
+      },
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "已发表",
+        "en": "Published"
+      }
     },
     {
-      "title": "Rethinking Data Mixing from the Perspective of Large Language Models",
+      "title": {
+        "zh": "从大模型视角重新思考数据混合",
+        "en": "Rethinking Data Mixing from the Perspective of Large Language Models"
+      },
       "authors": "Yuanjian Xu, Tianze Sun, Changwei Xu, XinLong Zhao, Jianing Hao, Ran Chen, Yang Liu, Ruijie Xu, Stephen Chen, Guang Zhang",
       "year": 2026,
-      "venue": "ACL 2026 · Main (Short Papers)",
+      "venue": {
+        "zh": "ACL 2026",
+        "en": "ACL 2026"
+      },
       "links": {
         "Paper": "https://aclanthology.org/2026.acl-short.28/",
         "PDF": "https://aclanthology.org/2026.acl-short.28.pdf"
@@ -397,13 +645,36 @@
       "topic": "models",
       "acl": 1,
       "doi": "10.18653/v1/2026.acl-short.28",
-      "bibtex": "@inproceedings{mixing2026,\n  title = {Rethinking Data Mixing from the Perspective of Large Language Models},\n  author = {Yuanjian Xu and Tianze Sun and Changwei Xu and XinLong Zhao and Jianing Hao and Ran Chen and Yang Liu and Ruijie Xu and Stephen Chen and Guang Zhang},\n  year = {2026},\n  booktitle = {ACL 2026 · Main (Short Papers)},\n  url = {https://aclanthology.org/2026.acl-short.28/}\n}"
+      "bibtex": "@inproceedings{mixing2026,\n  title = {Rethinking Data Mixing from the Perspective of Large Language Models},\n  author = {Yuanjian Xu and Tianze Sun and Changwei Xu and XinLong Zhao and Jianing Hao and Ran Chen and Yang Liu and Ruijie Xu and Stephen Chen and Guang Zhang},\n  year = {2026},\n  booktitle = {ACL 2026 · Main (Short Papers)},\n  url = {https://aclanthology.org/2026.acl-short.28/}\n}",
+      "conferencePriority": 6,
+      "core": true,
+      "figure": {
+        "image": "./assets/paper-mixing.webp",
+        "caption": {
+          "zh": "数据混合研究中的梯度方向与模型中心域。",
+          "en": "Gradient directions and model-centric domains in data mixing."
+        }
+      },
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "已发表",
+        "en": "Published"
+      }
     },
     {
-      "title": "HGAN-SDEs: Learning Neural Stochastic Differential Equations with Hermite-Guided Adversarial Training",
+      "title": {
+        "zh": "HGAN-SDEs：基于 Hermite 引导对抗训练的神经随机微分方程学习",
+        "en": "HGAN-SDEs: Learning Neural Stochastic Differential Equations with Hermite-Guided Adversarial Training"
+      },
       "authors": "Yuanjian Xu, Jianing Hao, Shuai Yuan, Guang Zhang",
       "year": 2026,
-      "venue": "ICASSP 2026",
+      "venue": {
+        "zh": "ICASSP 2026",
+        "en": "ICASSP 2026"
+      },
       "links": {
         "Code": "https://github.com/xuyj233/HGAN-SDE",
         "DOI": "https://doi.org/10.1109/icassp55912.2026.11461468"
@@ -414,13 +685,37 @@
       "id": "hgan",
       "topic": "markets",
       "doi": "10.1109/icassp55912.2026.11461468",
-      "bibtex": "@inproceedings{hgan2026,\n  title = {HGAN-SDEs: Learning Neural Stochastic Differential Equations with Hermite-Guided Adversarial Training},\n  author = {Yuanjian Xu and Jianing Hao and Shuai Yuan and Guang Zhang},\n  year = {2026},\n  booktitle = {ICASSP 2026},\n  url = {https://github.com/xuyj233/HGAN-SDE}\n}"
+      "bibtex": "@inproceedings{hgan2026,\n  title = {HGAN-SDEs: Learning Neural Stochastic Differential Equations with Hermite-Guided Adversarial Training},\n  author = {Yuanjian Xu and Jianing Hao and Shuai Yuan and Guang Zhang},\n  year = {2026},\n  booktitle = {ICASSP 2026},\n  url = {https://github.com/xuyj233/HGAN-SDE}\n}",
+      "conferencePriority": 5,
+      "core": true,
+      "figure": {
+        "image": "./assets/paper-hgan.webp",
+        "caption": {
+          "zh": "HGAN-SDEs 在神经随机微分方程学习中的生成结果。",
+          "en": "HGAN-SDEs generation results for neural stochastic differential equations."
+        }
+      },
+      "distinction": {
+        "zh": "Oral",
+        "en": "Oral"
+      },
+      "distinctionSource": "Group publication record; verify against final ICASSP program",
+      "statusLabel": {
+        "zh": "已发表",
+        "en": "Published"
+      }
     },
     {
-      "title": "FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness",
+      "title": {
+        "zh": "FinRipple：对齐大模型与金融市场以理解事件涟漪效应",
+        "en": "FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness"
+      },
       "authors": "Yuanjian Xu, Jianing Hao, Kunsheng Tang, Jingnan Chen, Anxian Liu, Peng Liu, Guang Zhang",
       "year": 2025,
-      "venue": "ACL 2025 · Findings",
+      "venue": {
+        "zh": "ACL 2025",
+        "en": "ACL 2025"
+      },
       "links": {
         "Paper": "https://aclanthology.org/2025.findings-acl.489/",
         "PDF": "https://aclanthology.org/2025.findings-acl.489.pdf",
@@ -433,7 +728,157 @@
       "id": "finripple",
       "topic": "markets",
       "doi": "10.18653/v1/2025.findings-acl.489",
-      "bibtex": "@inproceedings{finripple2025,\n  title = {FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness},\n  author = {Yuanjian Xu and Jianing Hao and Kunsheng Tang and Jingnan Chen and Anxian Liu and Peng Liu and Guang Zhang},\n  year = {2025},\n  booktitle = {ACL 2025 · Findings},\n  url = {https://aclanthology.org/2025.findings-acl.489/}\n}"
+      "bibtex": "@inproceedings{finripple2025,\n  title = {FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness},\n  author = {Yuanjian Xu and Jianing Hao and Kunsheng Tang and Jingnan Chen and Anxian Liu and Peng Liu and Guang Zhang},\n  year = {2025},\n  booktitle = {ACL 2025 · Findings},\n  url = {https://aclanthology.org/2025.findings-acl.489/}\n}",
+      "conferencePriority": 6,
+      "core": true,
+      "figure": {
+        "image": "./assets/paper-finripple.webp",
+        "caption": {
+          "zh": "FinRipple 的动态知识图谱与市场对齐流程。",
+          "en": "FinRipple dynamic knowledge graph and market-alignment pipeline."
+        }
+      },
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "已发表",
+        "en": "Published"
+      }
+    },
+    {
+      "id": "d3",
+      "title": {
+        "zh": "D³：面向大模型训练的动态方向图约束数据调度",
+        "en": "D$^3$: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training"
+      },
+      "authors": "Yuanjian Xu, Jianing Hao, Guang Zhang, Zhong Li",
+      "year": 2026,
+      "topic": "models",
+      "status": "preprint",
+      "links": {
+        "arXiv": "https://arxiv.org/abs/2605.31164",
+        "Code": "https://github.com/xuyj233/D3",
+        "ICML poster": "https://icml.cc/virtual/2026/poster/62470"
+      },
+      "venue": {
+        "zh": "ICML 2026",
+        "en": "ICML 2026"
+      },
+      "conferencePriority": 6,
+      "core": true,
+      "figure": {
+        "image": "./assets/paper-d3.webp",
+        "caption": {
+          "zh": "D³ 动态方向图约束的数据调度框架。",
+          "en": "The D³ dynamic directional graph-constrained scheduler."
+        }
+      },
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "预印本",
+        "en": "Preprint"
+      }
+    },
+    {
+      "id": "game",
+      "title": {
+        "zh": "大模型多智能体系统的博弈论视角",
+        "en": "Game-Theoretic Lens on LLM-based Multi-Agent Systems"
+      },
+      "authors": "Jianing Hao, Han Ding, Yuanjian Xu, Tianze Sun, Ran Chen, Wanbo Zhang, Guang Zhang, Siguang Li",
+      "year": 2026,
+      "topic": "agents",
+      "status": "preprint",
+      "links": {
+        "arXiv": "https://arxiv.org/abs/2601.15047"
+      },
+      "venue": {
+        "zh": "arXiv preprint",
+        "en": "arXiv preprint"
+      },
+      "conferencePriority": 4,
+      "core": true,
+      "figure": {
+        "image": "./assets/paper-game.webp",
+        "caption": {
+          "zh": "大模型多智能体系统的博弈论框架。",
+          "en": "A game-theoretic framework for LLM-based multi-agent systems."
+        }
+      },
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "预印本",
+        "en": "Preprint"
+      }
+    },
+    {
+      "id": "evidence",
+      "title": {
+        "zh": "不数句子，数证据：长文本价值测量中的 LLM 判断融合",
+        "en": "Count Evidence, Not Sentences: Tempered Evidence Fusion of LLM Judgments for Long-Text Value Measurement"
+      },
+      "authors": "Yuhe Wu, Rui Qian, Guangyu Wang, Yuran Chen, Yuanchao Zhu, Junjie Yang, Zhengheng Li, Jiulin Cai, Tianyi Zhang, Zihan Dong, Jiaxin Liu, Yujie Chen, Guang Zhang",
+      "year": 2026,
+      "topic": "agents",
+      "status": "preprint",
+      "links": {
+        "arXiv": "https://arxiv.org/abs/2609.27165"
+      },
+      "venue": {
+        "zh": "arXiv preprint",
+        "en": "arXiv preprint"
+      },
+      "conferencePriority": 4,
+      "core": true,
+      "figure": {
+        "image": "./assets/paper-evidence.webp",
+        "caption": {
+          "zh": "长文本价值测量中的证据融合方法。",
+          "en": "Evidence fusion for long-text value measurement."
+        }
+      },
+      "distinction": {
+        "zh": "",
+        "en": ""
+      },
+      "statusLabel": {
+        "zh": "预印本",
+        "en": "Preprint"
+      }
+    },
+    {
+      "id": "mechanism",
+      "title": {
+        "zh": "社会嵌入式大模型的机制对齐与决策",
+        "en": "Mechanism Alignment for Socially Embedded Decision Making in LLMs"
+      },
+      "authors": "Jiaxin Liu, Yuhe Wu, Yixuan Xie, Hanzhi Xiao, Zeyu Ma, Wenqing Gu, Zeheng Xian, Guang Zhang",
+      "year": 2026,
+      "topic": "agents",
+      "status": "team-record",
+      "links": {},
+      "venue": {
+        "zh": "EMNLP 2026",
+        "en": "EMNLP 2026"
+      },
+      "conferencePriority": 5,
+      "core": true,
+      "distinction": {
+        "zh": "团队记录",
+        "en": "Team record"
+      },
+      "statusLabel": {
+        "zh": "团队记录",
+        "en": "Team record"
+      }
     }
   ],
   "people": [
@@ -459,31 +904,62 @@
   ],
   "news": [
     {
-      "date": "2026-09",
+      "date": "2026-09-20",
+      "icon": "🧪",
       "text": {
-        "zh": "BizSage 与 Caught in the Story 预印本和代码公开，获 EMNLP 2026 Findings 接收。",
-        "en": "BizSage and Caught in the Story release preprints and code; accepted to EMNLP 2026 Findings."
+        "zh": "Count Evidence 预印本公开，研究长文本价值测量中的证据融合。",
+        "en": "Count Evidence releases a preprint on evidence fusion for long-text value measurement."
       },
-      "url": "https://github.com/Kzczc/EMNLP2026-BizSage"
+      "url": "https://arxiv.org/abs/2609.27165"
     },
     {
-      "date": "2026-07",
+      "date": "2026-09-03",
+      "icon": "🎉",
       "text": {
-        "zh": "PRISM、BizCompass 与数据混合研究收入 ACL 2026 系列论文集。",
+        "zh": "BizSage 与 Caught in the Story 预印本公开，并获 EMNLP 2026 Findings 接收。",
+        "en": "BizSage and Caught in the Story release preprints and are accepted to EMNLP 2026 Findings."
+      },
+      "url": "https://arxiv.org/abs/2609.22235"
+    },
+    {
+      "date": "2026-07-09",
+      "icon": "🏅",
+      "text": {
+        "zh": "DiReCT 在 ICML 2026 公开展示，并获 Spotlight 标记。",
+        "en": "DiReCT is presented at ICML 2026 with a Spotlight distinction."
+      },
+      "url": "https://icml.cc/virtual/2026/poster/66576"
+    },
+    {
+      "date": "2026-07-09",
+      "icon": "📐",
+      "text": {
+        "zh": "D³ 在 ICML 2026 展示动态方向图约束的数据调度框架。",
+        "en": "D³ is presented at ICML 2026 with a dynamic graph-constrained data scheduler."
+      },
+      "url": "https://icml.cc/virtual/2026/poster/62470"
+    },
+    {
+      "date": "2026-07-01",
+      "icon": "📚",
+      "text": {
+        "zh": "PRISM、BizCompass 与数据混合研究进入 ACL 2026 论文集。",
         "en": "PRISM, BizCompass, and data-mixing research appear in the ACL 2026 proceedings."
       },
       "url": "https://aclanthology.org/2026.acl-long.1551/"
     },
     {
-      "date": "2026-05",
+      "date": "2026-05-03",
+      "icon": "🎙️",
       "text": {
-        "zh": "HGAN-SDEs 发表于 ICASSP 2026，探索神经随机微分方程的学习。",
-        "en": "HGAN-SDEs appears at ICASSP 2026, studying the learning of neural stochastic differential equations."
+        "zh": "HGAN-SDEs 在 ICASSP 2026 以 Oral 形式展示。",
+        "en": "HGAN-SDEs is presented as an Oral at ICASSP 2026."
       },
       "url": "https://doi.org/10.1109/icassp55912.2026.11461468"
     },
     {
-      "date": "2025-11",
+      "date": "2025-11-15",
+      "icon": "📈",
       "text": {
         "zh": "LENS 金融时间序列预训练模型发表于 ACM ICAIF 2025。",
         "en": "LENS, a pre-trained model for financial time series, appears at ACM ICAIF 2025."
@@ -491,10 +967,11 @@
       "url": "https://doi.org/10.1145/3768292.3770349"
     },
     {
-      "date": "2025-07",
+      "date": "2025-07-01",
+      "icon": "🎉",
       "text": {
-        "zh": "FinRipple 收入 ACL 2025 Findings，研究金融事件的涟漪效应。",
-        "en": "FinRipple appears in ACL 2025 Findings, studying financial-event ripple effects."
+        "zh": "FinRipple 收入 ACL 2025，研究金融事件的涟漪效应。",
+        "en": "FinRipple appears in ACL 2025, studying financial-event ripple effects."
       },
       "url": "https://aclanthology.org/2025.findings-acl.489/"
     }
