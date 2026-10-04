@@ -551,7 +551,7 @@
         "en": "Accepted"
       },
       "sortDate": "2026-09",
-      "sortOrder": 13
+      "sortOrder": 12
     },
     {
       "title": {
@@ -941,8 +941,10 @@
       "authors": "Jiaxin Liu, Yuhe Wu, Yixuan Xie, Hanzhi Xiao, Zeyu Ma, Wenqing Gu, Zeheng Xian, Guang Zhang",
       "year": 2026,
       "topic": "agents",
-      "status": "team-record",
-      "links": {},
+      "status": "accepted",
+      "links": {
+        "Source": "https://kzczc-github-io.vercel.app/"
+      },
       "venue": {
         "zh": "EMNLP 2026",
         "en": "EMNLP 2026"
@@ -950,16 +952,21 @@
       "conferencePriority": 6,
       "core": true,
       "distinction": {
-        "zh": "团队记录",
-        "en": "Team record"
+        "zh": "",
+        "en": ""
       },
       "statusLabel": {
-        "zh": "团队记录",
-        "en": "Team record"
+        "zh": "已接收",
+        "en": "Accepted"
       },
-      "sortDate": "2026-04",
-      "bibtex": "@inproceedings{mechanism2026,\n  title = {Mechanism Alignment for Socially Embedded Decision Making in LLMs},\n  author = {Jiaxin Liu and Yuhe Wu and Yixuan Xie and Hanzhi Xiao and Zeyu Ma and Wenqing Gu and Zeheng Xian and Guang Zhang},\n  year = {2026},\n  booktitle = {EMNLP 2026},\n  note = {Team publication record; public paper link pending}\n}",
-      "sortOrder": 12
+      "sortDate": "2026-08",
+      "bibtex": "@inproceedings{mechanism2026,\n  title = {Mechanism Alignment for Socially Embedded Decision Making in LLMs},\n  author = {Jiaxin Liu and Yuhe Wu and Yixuan Xie and Hanzhi Xiao and Zeyu Ma and Wenqing Gu and Zeheng Xian and Guang Zhang},\n  year = {2026},\n  booktitle = {EMNLP 2026},\n  note = {Accepted; listed on Yuhe Wu homepage},\n  url = {https://kzczc-github-io.vercel.app/}\n}",
+      "sortOrder": 13,
+      "verification": "author-homepage",
+      "note": {
+        "zh": "据 Yuhe Wu 个人主页记录；公开论文链接待补充。",
+        "en": "Listed on Yuhe Wu’s homepage; a public paper link is still pending."
+      }
     }
   ],
   "people": [
@@ -1055,6 +1062,15 @@
         "en": "FinRipple appears in ACL 2025, studying financial-event ripple effects."
       },
       "url": "https://aclanthology.org/2025.findings-acl.489/"
+    },
+    {
+      "date": "2026-08",
+      "icon": "🎉",
+      "text": {
+        "zh": "AIDE Lab 共有三篇研究获 EMNLP 2026 接收：Mechanism Alignment、BizSage 与 Caught in the Story。",
+        "en": "Three AIDE Lab studies are accepted to EMNLP 2026: Mechanism Alignment, BizSage, and Caught in the Story."
+      },
+      "url": "https://kzczc-github-io.vercel.app/"
     }
   ],
   "email": "guangzhang@hkust-gz.edu.cn",
