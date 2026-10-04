@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="AIDE Lab mark">
+  <g fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 29C23 16 36 10 50 10M71 15C84 23 90 36 90 50M85 71C77 84 64 90 50 90M29 85C16 77 10 64 10 50"/>
+    <path d="M50 10L50 32M90 50L68 50M50 90L50 68M10 50L32 50"/>
+  </g>
+  <path d="M50 35L65 50L50 65L35 50Z" fill="currentColor"/>
+</svg>

@@ -1,14 +1,14 @@
-# Guang Zhang Research Group · HKUST(GZ)
+# AIDE Lab · HKUST(GZ)
 
 [在线主页](https://kzczc.github.io/lab-homepage/) · [English](README.en.md) · [设计参照](planning/DESIGN.md)
 
-面向香港科技大学（广州）张光老师的多页面研究团队网站。正式实验室名称待定，页眉以负责人和学校信息识别。
+面向香港科技大学（广州）张光老师的 **AIDE Lab（智能决策与经济研究实验室）** 多页面研究团队网站。
 
 ![首页预览](preview-cover.png)
 
 **首页 · 研究 · 团队 · 论文 · 动态 · 联系与加入**
 
-整体视觉以西湖大学 MedAI 为主要参照，团队页参考 MobiX，研究图与字体参考 CIS。采用深蓝背景、橙色强调、浅灰分区、Mulish/Open Sans、本地字体与可暂停的线网动效。
+整体视觉以西湖大学 MedAI 为主要参照，团队页参考 MobiX，研究图与字体参考 CIS。采用 AIDE 的深蓝、橙色节点和四向汇聚标志，配合浅灰分区、Mulish/Open Sans、本地字体与可暂停的线网动效。Logo 说明见 [BRAND.md](planning/BRAND.md)。
 
 主体包含 3 条研究方向、4 个代表项目、15 条成果、8 名当前学生以及 22 条已完成学位记录。中英文跨页保留；论文支持作者、年份、主题、标题筛选及 BibTeX 复制/下载。成果来源区别见 [SOURCES.md](planning/SOURCES.md)。
 

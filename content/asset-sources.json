@@ -46,5 +46,123 @@
   {
     "asset": "cis-pipeline.webp",
     "source": "https://raw.githubusercontent.com/Kzczc/EMNLP2026-Caught-in-the-Story/main/assets/pipeline.png"
+  },
+  {
+    "asset": "paper-direct.webp",
+    "source": "https://arxiv.org/html/2605.31175v1/com0123.png",
+    "paper": "https://arxiv.org/html/2605.31175",
+    "caption": "Figure 1 : A geometric comparison of optimization dynamics across training phases. In the stable training stage (a), high learning rates and uncurated data lead to high-variance oscillations across the steep walls of the loss landscape, resulting in a weak descent signal. During the annealing phase (b), our proposed mechanism suppresses transverse noise while maximizing the longitudinal signal, allowing the model to descend efficiently along the low-curvature valley toward the optimum."
+  },
+  {
+    "asset": "paper-d3.webp",
+    "source": "https://arxiv.org/html/2605.31164v1/pipeline0127new.png",
+    "paper": "https://arxiv.org/html/2605.31164",
+    "caption": "Figure 1: Overview of the D 3 D^{3} scheduling framework. Given B B micro-batches and the current parameter state θ ( t ) \\theta^{(t)} , the scheduler evaluates pairwise interactions by computing batch gradients and second-order curvature terms. These interactions are formalized into a directional influence matrix 𝐒 ( t ) \\mathbf{S}^{(t)} , which induces a dynamic influence graph. A graph-based solver then optimizes the sequence over this graph to produce the learned training order π ( t ) \\pi^{(t)} , which is applied during SGD updates to facilitate a more efficient optimization trajectory."
+  },
+  {
+    "asset": "paper-hgan.webp",
+    "source": "https://arxiv.org/html/2512.20272v2/comp_0123.png",
+    "paper": "https://arxiv.org/html/2512.20272",
+    "caption": "Figure 1: Comparison between HGAN-SDEs and Autoformer on the CIR dataset.\nThe figure shows how predicted sequence distributions evolve across time points,\nrevealing that HGAN-SDEs maintain smoother and more consistent dynamics, while Autoformer tends to generate more dispersed outputs."
+  },
+  {
+    "asset": "paper-lens.webp",
+    "source": "https://arxiv.org/html/2408.10111v3/arch0120.png",
+    "paper": "https://arxiv.org/html/2408.10111",
+    "caption": "Figure 1. The overall architecture of LENS is illustrated in this figure. Taking the forecasting task as an example, a 3-variate time series is visualized. The shaded patches represent the forecast horizon, whose corresponding embedding is fed into LENs , an encoder-decoder structure. (A) represents the invertible contrastive learning module, while (B) illustrates the attention mechanism within the TimeFormer model, comprising Time-aware attention and Channel-aware attention."
+  },
+  {
+    "asset": "paper-finflier.webp",
+    "source": "https://arxiv.org/html/2412.06821v1/pipelinev3.png",
+    "paper": "https://arxiv.org/html/2412.06821",
+    "caption": "Figure 6: FinFlier system mainly consists of two main modules: text-data binding module and graphics overlaying module. FinFlier takes tabular data and textual content in a financial article as input. It first segments the textual content into narratives. For each narrative, FinFlier then extracts the template of text-data binding and passes the template to the graphics overlaying module, which outputs a layered chart with layering graphical overlays. Users can edit the generated layered chart, and continue questioning or feedback errors."
+  },
+  {
+    "asset": "paper-bizcompass.webp",
+    "source": "https://arxiv.org/html/2604.17305v1/pipeline1120.png",
+    "paper": "https://arxiv.org/html/2604.17305",
+    "caption": "Figure 1: The three-phase pipeline of BizCompass benchmark construction."
+  },
+  {
+    "asset": "paper-mixing.webp",
+    "source": "https://arxiv.org/html/2604.07963v1/Fig/pic.jpg",
+    "paper": "https://arxiv.org/html/2604.07963",
+    "caption": "Figure 1: PCA projections of gradient directions at different training epochs. Colors denote data domains (C4, Wikipedia, ArXiv, Book, etc.). Initially, gradients form distinct clusters, showing strong domain bias. Over time, they overlap, indicating that the model homogenizes its domain perception. Experiments use 20% of SlimPajama trained on GPT2-Mini."
+  },
+  {
+    "asset": "paper-game.webp",
+    "source": "https://arxiv.org/html/2601.15047v1/pipeline0116.png",
+    "paper": "https://arxiv.org/html/2601.15047",
+    "caption": "Figure 1: A game-theoretic framework for LLM-based multi-agent systems illustrates the dynamic interplay between the four core elements of a game: Players, Strategies, Payoffs, and Information."
+  },
+  {
+    "asset": "paper-evidence.webp",
+    "source": "https://arxiv.org/html/2609.27165v1/teaser.png",
+    "paper": "https://arxiv.org/html/2609.27165",
+    "caption": "Figure 1: Long-text value measurement requires counting informative evidence rather than treating all sentences equally. LEFT: Direct prediction collapses mixed content into one label, while voting can let many uncertain sentences outweigh a few decisive ones. RIGHT: TEF weights sentence log-odds by normalized information gain, discounting uncertain judgments so decisive evidence drives the document-level orientation."
+  },
+  {
+    "asset": "paper-prism.webp",
+    "source": "https://arxiv.org/html/2604.16909v2/figures/intro.png",
+    "paper": "https://arxiv.org/html/2604.16909",
+    "caption": "Figure 1: Overview of the PRISM framework and optimization trade-offs. The left panel contrasts the mixed query design of existing benchmarks with our structured approach that isolates cognitive stages to pinpoint failure dimensions like KE, KM, RE, and IFE. The right panel illustrates performance trade-offs where enhancing instruction following compromises reasoning ability and knowledge injection leads to the forgetting of retained information."
+  },
+  {
+    "asset": "paper-bizsage.webp",
+    "source": "https://arxiv.org/html/2609.22235v1/Fig/framework_v3.png",
+    "paper": "https://arxiv.org/html/2609.22235",
+    "caption": "Figure 2: Overview of the proposed framework. The left part illustrates Stage 1 (literature retrieval) and the right part illustrates Stage 2 (grounded response generation)."
+  },
+  {
+    "asset": "paper-cis.webp",
+    "source": "https://arxiv.org/html/2609.03407v1/figure/teaser_v5.png",
+    "paper": "https://arxiv.org/html/2609.03407",
+    "caption": "Figure 1: Narrative captivity in a babysitting conflict. The same facts, delivered as (a) neutral description, (b) single-turn narration, and (c) five-turn progressive narration, produce increasingly biased model judgments, with no explicit pressure from the narrator."
+  },
+  {
+    "asset": "paper-finripple.webp",
+    "source": "https://arxiv.org/html/2505.23826v1/framework0208.png",
+    "paper": "https://arxiv.org/html/2505.23826",
+    "caption": "Figure 2: Overview of FinRipple. The framework comprises three stages: (1) KG Construction: transforming unstructured data, such as announcements, patents, and transactions, into time-varying KGs that capture company relationships; (2) KG Injection: creating instruction datasets based on these KGs and using them to inject structured knowledge into adapters of an LLM without retraining the original layers; (3) Market Alignment: aligning predictions with real market reaction by using the correlation between the predicted event impact and CAPM residuals as the reward for PPO to optimize model performance. The adapter is frozen, and the analysis ability is parameterized into the original layers of the LLM."
+  },
+  {
+    "asset": "minion-1.webp",
+    "source": "https://www.illumination.com/wp-content/uploads/2019/11/Minions_Kevin2.png",
+    "credit": "Illumination; temporary placeholder character art"
+  },
+  {
+    "asset": "minion-2.webp",
+    "source": "https://www.illumination.com/wp-content/uploads/2019/11/SHM_PRINTS_P1880.png",
+    "credit": "Illumination; temporary placeholder character art"
+  },
+  {
+    "asset": "minion-3.webp",
+    "source": "https://www.illumination.com/wp-content/uploads/2019/11/Minions_KingBob.png",
+    "credit": "Illumination; temporary placeholder character art"
+  },
+  {
+    "asset": "minion-4.webp",
+    "source": "https://www.illumination.com/wp-content/uploads/2020/02/kevin-1.png",
+    "credit": "Illumination; temporary placeholder character art"
+  },
+  {
+    "asset": "minion-5.webp",
+    "source": "https://www.illumination.com/wp-content/uploads/2020/02/stuart-1.png",
+    "credit": "Illumination; temporary placeholder character art"
+  },
+  {
+    "asset": "minion-6.webp",
+    "source": "https://www.illumination.com/wp-content/uploads/2020/02/otto.png",
+    "credit": "Illumination; temporary placeholder character art"
+  },
+  {
+    "asset": "minion-7.webp",
+    "source": "https://www.illumination.com/wp-content/uploads/2019/11/DM3_Minions.png",
+    "credit": "Illumination; temporary placeholder character art; cropped from group image"
+  },
+  {
+    "asset": "minion-8.webp",
+    "source": "https://www.illumination.com/wp-content/uploads/2019/11/DM3_Minions.png",
+    "credit": "Illumination; temporary placeholder character art; cropped from group image"
   }
 ]

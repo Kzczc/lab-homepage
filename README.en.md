@@ -1,14 +1,14 @@
-# Guang Zhang Research Group · HKUST(GZ)
+# AIDE Lab · HKUST(GZ)
 
 [Website](https://kzczc.github.io/lab-homepage/) · [中文](README.md) · [Design references](planning/DESIGN.md)
 
-A six-page bilingual academic website. The formal lab name is still being discussed; the header identifies the PI and university.
+A six-page bilingual academic website for **AIDE Lab — AI, Decisions & Economics** at HKUST(GZ).
 
 ![Homepage preview](preview-cover.png)
 
 **Home · Research · Team · Publications · News · Join us**
 
-The visual structure follows Westlake MedAI, the team sidebar follows MobiX, and project presentation and open-source typefaces draw on CIS. Features include a dark-blue animated wireframe, orange accents, gray/white content sections, locally hosted Mulish/Open Sans, and reduced-motion support.
+The visual structure follows Westlake MedAI, the team sidebar follows MobiX, and project presentation and open-source typefaces draw on CIS. The original AIDE mark represents four decision paths converging on a central node. Features include a dark-blue animated wireframe, orange accents, gray/white content sections, locally hosted Mulish/Open Sans, and reduced-motion support. See [BRAND.md](planning/BRAND.md) for the rationale.
 
 Three research themes, four selected projects, 15 research records, eight current students, and 22 completed-degree records. Language preference persists across pages. Publication filters support shareable URLs, author links, citation copying, and a complete BibTeX download.
 
