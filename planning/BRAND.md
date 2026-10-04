@@ -17,7 +17,7 @@ The useful principles are:
 
 The AIDE mark is a **decision convergence** symbol. Four open paths arrive from four directions and meet at a central diamond. The open paths represent evidence, models, agents, and economic context; the central node represents a decision that has to be made visible and explainable. The geometry stays abstract so it can cover future work beyond any one model or financial task.
 
-The primary version uses deep navy and a single orange node. The white version is for the dark site header. The mono version is for documents, paper headers, and monochrome printing. The favicon keeps the central diamond and four directional cuts at a 32px scale.
+The primary version uses the orange path system around a deep navy central diamond with an orange point. The white version is for the dark site header. The mono version is for documents, paper headers, and monochrome printing. The favicon keeps the central diamond and four directional cuts at a 32px scale.
 
 ## Files
 

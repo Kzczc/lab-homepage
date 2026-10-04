@@ -49,4 +49,4 @@
 
 ## 第二版新增图片与字体
 
-真实项目图来自作者公开仓库（BizSage、PRISM、Caught in the Story），替换首页的概念插图。校园摄影与学校字标来自 HKUST(GZ) 官网。详细 URL 见 content/asset-sources.json。Mulish 与 Open Sans 采用 OFL 字体，许可证随 docs/assets/ 提供。原来的概念 SVG 不再用于首页项目卡片。
+真实项目图来自作者公开仓库（BizSage、PRISM、Caught in the Story），替换首页的概念插图。校园摄影与学校字标来自 HKUST(GZ) 官网。详细 URL 见 content/asset-sources.json。Inter 采用 OFL 字体，许可证随 docs/assets/ 提供。原来的概念 SVG 不再用于首页项目卡片。

@@ -34,9 +34,18 @@
         "en": "Studying training-data selection and mixing, evaluating business reasoning, and diagnosing failures in memory, reasoning, and instruction following."
       },
       "tags": [
-        "Data selection",
-        "LLM evaluation",
-        "Reasoning"
+        {
+          "zh": "数据选择",
+          "en": "Data selection"
+        },
+        {
+          "zh": "大模型评估",
+          "en": "LLM evaluation"
+        },
+        {
+          "zh": "推理",
+          "en": "Reasoning"
+        }
       ],
       "visual": "network"
     },
@@ -52,9 +61,18 @@
         "en": "Exploring knowledge-grounded multi-agent research and language-model behavior in multi-turn interactions, social settings, and economic decisions."
       },
       "tags": [
-        "Multi-agent systems",
-        "Decision-making",
-        "Business research"
+        {
+          "zh": "多智能体系统",
+          "en": "Multi-agent systems"
+        },
+        {
+          "zh": "决策",
+          "en": "Decision-making"
+        },
+        {
+          "zh": "商业研究",
+          "en": "Business research"
+        }
       ],
       "visual": "circles"
     },
@@ -70,9 +88,18 @@
         "en": "Combining financial econometrics, stochastic processes, and machine learning to study time series, market-event propagation, and empirical finance."
       },
       "tags": [
-        "Financial econometrics",
-        "Time series",
-        "Empirical finance"
+        {
+          "zh": "金融计量",
+          "en": "Financial econometrics"
+        },
+        {
+          "zh": "时间序列",
+          "en": "Time series"
+        },
+        {
+          "zh": "实证金融",
+          "en": "Empirical finance"
+        }
       ],
       "visual": "waves"
     }
@@ -92,7 +119,10 @@
         "Preprint": "https://arxiv.org/abs/2609.22235",
         "Code": "https://github.com/Kzczc/EMNLP2026-BizSage"
       },
-      "label": "EMNLP 2026 · Accepted",
+      "label": {
+        "zh": "EMNLP 2026 · 已接收",
+        "en": "EMNLP 2026 · Accepted"
+      },
       "id": "bizsage",
       "imageKind": "research"
     },
@@ -110,7 +140,10 @@
         "Paper": "https://aclanthology.org/2026.acl-long.1551/",
         "Code": "https://github.com/Kzczc/ACL2026-PRISM"
       },
-      "label": "ACL 2026",
+      "label": {
+        "zh": "ACL 2026",
+        "en": "ACL 2026"
+      },
       "id": "prism",
       "imageKind": "research"
     },
@@ -126,7 +159,10 @@
       },
       "image": "./assets/cis-figure.webp",
       "imageKind": "research",
-      "label": "EMNLP 2026 · Accepted",
+      "label": {
+        "zh": "EMNLP 2026 · 已接收",
+        "en": "EMNLP 2026 · Accepted"
+      },
       "links": {
         "Preprint": "https://arxiv.org/abs/2609.03407",
         "Code": "https://github.com/Kzczc/EMNLP2026-Caught-in-the-Story"
@@ -147,7 +183,10 @@
         "Paper": "https://aclanthology.org/2025.findings-acl.489/",
         "Code": "https://github.com/CatherineHao/FinRipple"
       },
-      "label": "ACL 2025",
+      "label": {
+        "zh": "ACL 2025",
+        "en": "ACL 2025"
+      },
       "id": "finripple",
       "imageKind": "research"
     }
@@ -193,7 +232,9 @@
       "statusLabel": {
         "zh": "已发表",
         "en": "Published"
-      }
+      },
+      "sortDate": "2025-11",
+      "sortOrder": 6
     },
     {
       "title": {
@@ -228,7 +269,9 @@
       "statusLabel": {
         "zh": "已发表",
         "en": "Published"
-      }
+      },
+      "sortDate": "2025-01",
+      "sortOrder": 4
     },
     {
       "title": {
@@ -263,7 +306,9 @@
       "statusLabel": {
         "zh": "已发表",
         "en": "Published"
-      }
+      },
+      "sortDate": "2026-01",
+      "sortOrder": 9
     },
     {
       "title": {
@@ -298,7 +343,9 @@
       "statusLabel": {
         "zh": "已发表",
         "en": "Published"
-      }
+      },
+      "sortDate": "2026-01",
+      "sortOrder": 8
     },
     {
       "title": {
@@ -324,7 +371,7 @@
       "verification": "publisher",
       "status": "published",
       "id": "pub-4",
-      "conferencePriority": 2,
+      "conferencePriority": 1,
       "core": false,
       "distinction": {
         "zh": "",
@@ -333,7 +380,9 @@
       "statusLabel": {
         "zh": "已发表",
         "en": "Published"
-      }
+      },
+      "sortDate": "2022-01",
+      "sortOrder": 3
     },
     {
       "title": {
@@ -355,7 +404,7 @@
       "verification": "publisher",
       "status": "published",
       "id": "pub-5",
-      "conferencePriority": 2,
+      "conferencePriority": 1,
       "core": false,
       "distinction": {
         "zh": "",
@@ -364,7 +413,9 @@
       "statusLabel": {
         "zh": "已发表",
         "en": "Published"
-      }
+      },
+      "sortDate": "2021-01",
+      "sortOrder": 2
     },
     {
       "title": {
@@ -392,7 +443,7 @@
         "en": "Online in 2024; assigned to the 2025 volume."
       },
       "bibtex": "@article{finflier2025,\n  title = {FinFlier: Automating Graphical Overlays for Financial Visualizations With Knowledge-Grounding Large Language Model},\n  author = {Jianing Hao and Manling Yang and Qing Shi and Yuzhe Jiang and Guang Zhang and Wei Zeng},\n  year = {2025},\n  journal = {IEEE TVCG},\n  url = {https://github.com/CatherineHao/FinFlier}\n}",
-      "conferencePriority": 3,
+      "conferencePriority": 4,
       "core": false,
       "figure": {
         "image": "./assets/paper-finflier.webp",
@@ -408,7 +459,9 @@
       "statusLabel": {
         "zh": "已发表",
         "en": "Published"
-      }
+      },
+      "sortDate": "2025-10",
+      "sortOrder": 5
     },
     {
       "title": {
@@ -435,7 +488,7 @@
         "en": "Accepted; preprint and code available."
       },
       "bibtex": "@misc{bizsage2026,\n  title = {BizSage: A Self-Evolving Multi-Agent Framework for Business Research with Efficient Knowledge Retrieval},\n  author = {Yuhe Wu and Guangyu Wang and Jiaxin Liu and Guang Zhang},\n  year = {2026},\n  note = {EMNLP 2026 · Findings},\n  url = {https://arxiv.org/abs/2609.22235}\n}",
-      "conferencePriority": 5,
+      "conferencePriority": 6,
       "core": true,
       "figure": {
         "image": "./assets/paper-bizsage.webp",
@@ -451,7 +504,9 @@
       "statusLabel": {
         "zh": "已接收",
         "en": "Accepted"
-      }
+      },
+      "sortDate": "2026-09",
+      "sortOrder": 14
     },
     {
       "title": {
@@ -478,7 +533,7 @@
         "en": "Accepted; preprint and code available."
       },
       "bibtex": "@misc{cis2026,\n  title = {Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation},\n  author = {Yuhe Wu and Guangyu Wang and Yujie Chen and Jiatong Zhang and Yuran Chen and Yutong Zhang and Xiyin Cheng and Wenpeng Cao and Zhuang Liu and Guang Zhang},\n  year = {2026},\n  note = {EMNLP 2026 · Findings},\n  url = {https://arxiv.org/abs/2609.03407}\n}",
-      "conferencePriority": 5,
+      "conferencePriority": 6,
       "core": true,
       "figure": {
         "image": "./assets/paper-cis.webp",
@@ -494,7 +549,9 @@
       "statusLabel": {
         "zh": "已接收",
         "en": "Accepted"
-      }
+      },
+      "sortDate": "2026-09",
+      "sortOrder": 13
     },
     {
       "title": {
@@ -520,7 +577,7 @@
         "en": "Conference details from the authors’ public release."
       },
       "bibtex": "@inproceedings{direct2026,\n  title = {Towards Efficient LLMs Annealing with Principled Sample Selection},\n  author = {Yuanjian Xu and Jianing Hao and Wanbo Zhang and Zhong Li and Guang Zhang},\n  year = {2026},\n  booktitle = {ICML 2026 · Spotlight},\n  url = {https://github.com/xuyj233/Direct}\n}",
-      "conferencePriority": 6,
+      "conferencePriority": 9,
       "core": true,
       "figure": {
         "image": "./assets/paper-direct.webp",
@@ -537,7 +594,9 @@
       "statusLabel": {
         "zh": "已发表",
         "en": "Published"
-      }
+      },
+      "sortDate": "2026-07",
+      "sortOrder": 20
     },
     {
       "title": {
@@ -563,7 +622,7 @@
       "acl": 2,
       "doi": "10.18653/v1/2026.acl-long.1551",
       "bibtex": "@inproceedings{prism2026,\n  title = {PRISM: Probing Reasoning, Instruction, and Source Memory in LLM Hallucinations},\n  author = {Yuhe Wu and Guangyu Wang and Yuran Chen and Jiatong Zhang and Yutong Zhang and Yujie Chen and Jiaming Shang and Guang Zhang and Zhuang Liu},\n  year = {2026},\n  booktitle = {ACL 2026 · Main (Long Papers)},\n  url = {https://github.com/Kzczc/ACL2026-PRISM}\n}",
-      "conferencePriority": 6,
+      "conferencePriority": 8,
       "core": true,
       "figure": {
         "image": "./assets/paper-prism.webp",
@@ -579,7 +638,9 @@
       "statusLabel": {
         "zh": "已发表",
         "en": "Published"
-      }
+      },
+      "sortDate": "2026-07",
+      "sortOrder": 18
     },
     {
       "title": {
@@ -605,7 +666,7 @@
       "acl": 0,
       "doi": "10.18653/v1/2026.findings-acl.1198",
       "bibtex": "@inproceedings{bizcompass2026,\n  title = {BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications},\n  author = {Jianing Hao and Yuhe Wu and Yuanjian Xu and Shichang Meng and Shuai Yuan and Wei Zeng and Zixuan Wang and Guang Zhang},\n  year = {2026},\n  booktitle = {ACL 2026 · Findings},\n  url = {https://github.com/CatherineHao/BizCompass}\n}",
-      "conferencePriority": 6,
+      "conferencePriority": 8,
       "core": true,
       "figure": {
         "image": "./assets/paper-bizcompass.webp",
@@ -621,7 +682,9 @@
       "statusLabel": {
         "zh": "已发表",
         "en": "Published"
-      }
+      },
+      "sortDate": "2026-07",
+      "sortOrder": 17
     },
     {
       "title": {
@@ -646,7 +709,7 @@
       "acl": 1,
       "doi": "10.18653/v1/2026.acl-short.28",
       "bibtex": "@inproceedings{mixing2026,\n  title = {Rethinking Data Mixing from the Perspective of Large Language Models},\n  author = {Yuanjian Xu and Tianze Sun and Changwei Xu and XinLong Zhao and Jianing Hao and Ran Chen and Yang Liu and Ruijie Xu and Stephen Chen and Guang Zhang},\n  year = {2026},\n  booktitle = {ACL 2026 · Main (Short Papers)},\n  url = {https://aclanthology.org/2026.acl-short.28/}\n}",
-      "conferencePriority": 6,
+      "conferencePriority": 8,
       "core": true,
       "figure": {
         "image": "./assets/paper-mixing.webp",
@@ -662,7 +725,9 @@
       "statusLabel": {
         "zh": "已发表",
         "en": "Published"
-      }
+      },
+      "sortDate": "2026-07",
+      "sortOrder": 16
     },
     {
       "title": {
@@ -686,7 +751,7 @@
       "topic": "markets",
       "doi": "10.1109/icassp55912.2026.11461468",
       "bibtex": "@inproceedings{hgan2026,\n  title = {HGAN-SDEs: Learning Neural Stochastic Differential Equations with Hermite-Guided Adversarial Training},\n  author = {Yuanjian Xu and Jianing Hao and Shuai Yuan and Guang Zhang},\n  year = {2026},\n  booktitle = {ICASSP 2026},\n  url = {https://github.com/xuyj233/HGAN-SDE}\n}",
-      "conferencePriority": 5,
+      "conferencePriority": 7,
       "core": true,
       "figure": {
         "image": "./assets/paper-hgan.webp",
@@ -703,7 +768,9 @@
       "statusLabel": {
         "zh": "已发表",
         "en": "Published"
-      }
+      },
+      "sortDate": "2026-05",
+      "sortOrder": 15
     },
     {
       "title": {
@@ -729,7 +796,7 @@
       "topic": "markets",
       "doi": "10.18653/v1/2025.findings-acl.489",
       "bibtex": "@inproceedings{finripple2025,\n  title = {FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness},\n  author = {Yuanjian Xu and Jianing Hao and Kunsheng Tang and Jingnan Chen and Anxian Liu and Peng Liu and Guang Zhang},\n  year = {2025},\n  booktitle = {ACL 2025 · Findings},\n  url = {https://aclanthology.org/2025.findings-acl.489/}\n}",
-      "conferencePriority": 6,
+      "conferencePriority": 8,
       "core": true,
       "figure": {
         "image": "./assets/paper-finripple.webp",
@@ -745,18 +812,20 @@
       "statusLabel": {
         "zh": "已发表",
         "en": "Published"
-      }
+      },
+      "sortDate": "2025-07",
+      "sortOrder": 7
     },
     {
       "id": "d3",
       "title": {
         "zh": "D³：面向大模型训练的动态方向图约束数据调度",
-        "en": "D$^3$: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training"
+        "en": "D³: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training"
       },
       "authors": "Yuanjian Xu, Jianing Hao, Guang Zhang, Zhong Li",
       "year": 2026,
       "topic": "models",
-      "status": "preprint",
+      "status": "published",
       "links": {
         "arXiv": "https://arxiv.org/abs/2605.31164",
         "Code": "https://github.com/xuyj233/D3",
@@ -766,7 +835,7 @@
         "zh": "ICML 2026",
         "en": "ICML 2026"
       },
-      "conferencePriority": 6,
+      "conferencePriority": 9,
       "core": true,
       "figure": {
         "image": "./assets/paper-d3.webp",
@@ -780,9 +849,12 @@
         "en": ""
       },
       "statusLabel": {
-        "zh": "预印本",
-        "en": "Preprint"
-      }
+        "zh": "已发表",
+        "en": "Published"
+      },
+      "sortDate": "2026-07",
+      "bibtex": "@inproceedings{d3_2026,\n  title = {D$^3$: Dynamic Directional Graph-Constrained Data Scheduling for LLM Training},\n  author = {Yuanjian Xu and Jianing Hao and Guang Zhang and Zhong Li},\n  year = {2026},\n  booktitle = {ICML 2026},\n  url = {https://icml.cc/virtual/2026/poster/62470}\n}",
+      "sortOrder": 19
     },
     {
       "id": "game",
@@ -801,7 +873,7 @@
         "zh": "arXiv preprint",
         "en": "arXiv preprint"
       },
-      "conferencePriority": 4,
+      "conferencePriority": 3,
       "core": true,
       "figure": {
         "image": "./assets/paper-game.webp",
@@ -817,7 +889,10 @@
       "statusLabel": {
         "zh": "预印本",
         "en": "Preprint"
-      }
+      },
+      "sortDate": "2026-01",
+      "bibtex": "@article{game2026,\n  title = {Game-Theoretic Lens on LLM-based Multi-Agent Systems},\n  author = {Guang Zhang},\n  year = {2026},\n  journal = {arXiv preprint arXiv:2601.15047},\n  url = {https://arxiv.org/abs/2601.15047}\n}",
+      "sortOrder": 10
     },
     {
       "id": "evidence",
@@ -836,7 +911,7 @@
         "zh": "arXiv preprint",
         "en": "arXiv preprint"
       },
-      "conferencePriority": 4,
+      "conferencePriority": 3,
       "core": true,
       "figure": {
         "image": "./assets/paper-evidence.webp",
@@ -852,7 +927,10 @@
       "statusLabel": {
         "zh": "预印本",
         "en": "Preprint"
-      }
+      },
+      "sortDate": "2026-09",
+      "bibtex": "@article{evidence2026,\n  title = {Count Evidence, Not Sentences: Tempered Evidence Fusion of LLM Judgments for Long-Text Value Measurement},\n  author = {Guang Zhang},\n  year = {2026},\n  journal = {arXiv preprint arXiv:2609.27165},\n  url = {https://arxiv.org/abs/2609.27165}\n}",
+      "sortOrder": 11
     },
     {
       "id": "mechanism",
@@ -869,7 +947,7 @@
         "zh": "EMNLP 2026",
         "en": "EMNLP 2026"
       },
-      "conferencePriority": 5,
+      "conferencePriority": 6,
       "core": true,
       "distinction": {
         "zh": "团队记录",
@@ -878,7 +956,10 @@
       "statusLabel": {
         "zh": "团队记录",
         "en": "Team record"
-      }
+      },
+      "sortDate": "2026-04",
+      "bibtex": "@inproceedings{mechanism2026,\n  title = {Mechanism Alignment for Socially Embedded Decision Making in LLMs},\n  author = {Jiaxin Liu and Yuhe Wu and Yixuan Xie and Hanzhi Xiao and Zeyu Ma and Wenqing Gu and Zeheng Xian and Guang Zhang},\n  year = {2026},\n  booktitle = {EMNLP 2026},\n  note = {Team publication record; public paper link pending}\n}",
+      "sortOrder": 12
     }
   ],
   "people": [
@@ -904,7 +985,7 @@
   ],
   "news": [
     {
-      "date": "2026-09-20",
+      "date": "2026-09",
       "icon": "🧪",
       "text": {
         "zh": "Count Evidence 预印本公开，研究长文本价值测量中的证据融合。",
@@ -913,7 +994,7 @@
       "url": "https://arxiv.org/abs/2609.27165"
     },
     {
-      "date": "2026-09-03",
+      "date": "2026-09",
       "icon": "🎉",
       "text": {
         "zh": "BizSage 与 Caught in the Story 预印本公开，并获 EMNLP 2026 Findings 接收。",
@@ -940,7 +1021,7 @@
       "url": "https://icml.cc/virtual/2026/poster/62470"
     },
     {
-      "date": "2026-07-01",
+      "date": "2026-07",
       "icon": "📚",
       "text": {
         "zh": "PRISM、BizCompass 与数据混合研究进入 ACL 2026 论文集。",
@@ -949,7 +1030,7 @@
       "url": "https://aclanthology.org/2026.acl-long.1551/"
     },
     {
-      "date": "2026-05-03",
+      "date": "2026-05",
       "icon": "🎙️",
       "text": {
         "zh": "HGAN-SDEs 在 ICASSP 2026 以 Oral 形式展示。",
@@ -993,7 +1074,10 @@
       "current": true,
       "supervision": "Prime",
       "thesis": "",
-      "placement": "",
+      "placement": {
+        "zh": "待更新",
+        "en": "To be updated"
+      },
       "links": {},
       "paperIds": [
         "bizsage"
@@ -1006,7 +1090,10 @@
       "current": true,
       "supervision": "Prime",
       "thesis": "",
-      "placement": "",
+      "placement": {
+        "zh": "待更新",
+        "en": "To be updated"
+      },
       "links": {
         "Website": "https://kzczc-github-io.vercel.app",
         "GitHub": "https://github.com/Kzczc"
@@ -1025,7 +1112,10 @@
       "current": true,
       "supervision": "Prime",
       "thesis": "",
-      "placement": "",
+      "placement": {
+        "zh": "待更新",
+        "en": "To be updated"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1036,7 +1126,10 @@
       "current": true,
       "supervision": "Prime",
       "thesis": "",
-      "placement": "",
+      "placement": {
+        "zh": "待更新",
+        "en": "To be updated"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1047,7 +1140,10 @@
       "current": true,
       "supervision": "Prime",
       "thesis": "",
-      "placement": "",
+      "placement": {
+        "zh": "待更新",
+        "en": "To be updated"
+      },
       "links": {
         "GitHub": "https://github.com/xuyj233"
       },
@@ -1067,7 +1163,10 @@
       "current": true,
       "supervision": "Co",
       "thesis": "",
-      "placement": "",
+      "placement": {
+        "zh": "待更新",
+        "en": "To be updated"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1078,7 +1177,10 @@
       "current": true,
       "supervision": "Co",
       "thesis": "",
-      "placement": "",
+      "placement": {
+        "zh": "待更新",
+        "en": "To be updated"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1089,7 +1191,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Essays on Deep Learning Applications in Jump Detection and Technical Analysis",
-      "placement": "Fuyao University of Science and Technology",
+      "placement": {
+        "zh": "福耀科技大学",
+        "en": "Fuyao University of Science and Technology"
+      },
       "links": {},
       "paperIds": [
         "jump"
@@ -1102,7 +1207,10 @@
       "current": false,
       "supervision": "Co",
       "thesis": "Augmenting Financial Time Series Analysis with Large Models: Progressive Representations from Tokens to Visuals",
-      "placement": "Ant Financial",
+      "placement": {
+        "zh": "蚂蚁集团",
+        "en": "Ant Financial"
+      },
       "links": {},
       "paperIds": [
         "lens",
@@ -1121,7 +1229,10 @@
       "current": true,
       "supervision": "Prime",
       "thesis": "",
-      "placement": "",
+      "placement": {
+        "zh": "待更新",
+        "en": "To be updated"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1132,7 +1243,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Analysis of Decentralized Social Media Based on Deep Learning: A Case Study of Chinese Mastodon",
-      "placement": "Project Management Position, Contemporary Amperex Technology Co., Limited",
+      "placement": {
+        "zh": "宁德时代项目管理岗位",
+        "en": "Project Management Position, Contemporary Amperex Technology Co., Limited"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1143,7 +1257,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Enhancing Cryptocurrency Pairs Trading with Social Media-Based Investor Sentiment",
-      "placement": "Management Trainee, Bank of Guangzhou",
+      "placement": {
+        "zh": "广州银行管理培训生",
+        "en": "Management Trainee, Bank of Guangzhou"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1154,7 +1271,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Evaluating and Enhancing Reference-Dependent Decision Making in Large Language Models",
-      "placement": "PhD in FinTech, HKUST(GZ)",
+      "placement": {
+        "zh": "香港科技大学（广州）金融科技博士",
+        "en": "PhD in FinTech, HKUST(GZ)"
+      },
       "links": {},
       "paperIds": [
         "bizsage"
@@ -1167,7 +1287,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Short-term Price Prediction of Meme Coins Based on Twitter Sentiment Analysis: A Case Study of $WIF",
-      "placement": "Channel Manager，Bosera Funds",
+      "placement": {
+        "zh": "博时基金渠道经理",
+        "en": "Channel Manager, Bosera Funds"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1178,7 +1301,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "A Study of Customer Satisfaction and Improvement Opportunities in Online Delivery Platforms with Review Data",
-      "placement": "",
+      "placement": {
+        "zh": "待更新",
+        "en": "To be updated"
+      },
       "links": {},
       "paperIds": [
         "finripple"
@@ -1191,7 +1317,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Does Transportation Gap Affect Firm's Productivity? Evidence from Nighttime Light and Transportation POI",
-      "placement": "CITIC Securities",
+      "placement": {
+        "zh": "中信证券",
+        "en": "CITIC Securities"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1202,7 +1331,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Urban Rail Transit towards Urban Sustainability",
-      "placement": "PhD in IPE, HKUST(GZ)",
+      "placement": {
+        "zh": "香港科技大学（广州）产业经济学博士",
+        "en": "PhD in IPE, HKUST(GZ)"
+      },
       "links": {},
       "paperIds": [
         "pub-1"
@@ -1215,7 +1347,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "High-Speed Rail and Supply Chain Risks: Evidence from Chinese Listed Firms",
-      "placement": "ByteDance",
+      "placement": {
+        "zh": "字节跳动",
+        "en": "ByteDance"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1226,7 +1361,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "ChinaUrban2Vec: Multi-View Urban Embedding from Transportation and Functional Graphs for Economic Analysis",
-      "placement": "PhD in AI, HKUST(GZ)",
+      "placement": {
+        "zh": "香港科技大学（广州）人工智能博士",
+        "en": "PhD in AI, HKUST(GZ)"
+      },
       "links": {},
       "paperIds": [
         "lens",
@@ -1240,7 +1378,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Transportation Accessibility and Corporate Productivity: Evidence from Commuting Time",
-      "placement": "PhD in INTR, HKUST(GZ)",
+      "placement": {
+        "zh": "香港科技大学（广州）博士（INTR）",
+        "en": "PhD in INTR, HKUST(GZ)"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1251,7 +1392,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "The Modelling of Ethereum Staking Reward Rate",
-      "placement": "PhD in Finance, UNSW",
+      "placement": {
+        "zh": "新南威尔士大学金融学博士",
+        "en": "PhD in Finance, UNSW"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1262,7 +1406,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Relational Temporal Adaptive Graph Convolutional Network for Ranking-Based Stock Prediction",
-      "placement": "PhD in Finance, Shanghai University of Finance and Economics",
+      "placement": {
+        "zh": "上海财经大学金融学博士",
+        "en": "PhD in Finance, Shanghai University of Finance and Economics"
+      },
       "links": {},
       "paperIds": [
         "finripple"
@@ -1275,7 +1422,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "ESG News and Investor Perception: The Role of ESG Ratings and Disagreement in the Stock Price Reaction",
-      "placement": "",
+      "placement": {
+        "zh": "待更新",
+        "en": "To be updated"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1286,7 +1436,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Impact of ESG Initiatives on Corporate Financial Outcome: An Empirical Study of A-Shares Listed Companies in China",
-      "placement": "",
+      "placement": {
+        "zh": "待更新",
+        "en": "To be updated"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1297,7 +1450,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Examining Corporate Greenwashing through Their “Words and Deeds”",
-      "placement": "",
+      "placement": {
+        "zh": "待更新",
+        "en": "To be updated"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1308,7 +1464,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "A Study of a Financial Fraud Detection System Incorporating Accounting Text Analysis",
-      "placement": "L’Oréal",
+      "placement": {
+        "zh": "欧莱雅",
+        "en": "L’Oréal"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1319,7 +1478,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Optimal strategy and timing for stochastic pairs trading with mean-variance objective",
-      "placement": "PhD, University of Amsterdam",
+      "placement": {
+        "zh": "阿姆斯特丹大学博士",
+        "en": "PhD, University of Amsterdam"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1330,7 +1492,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Blockchain Abnormal Transaction Detection Based on Graph Neural Network",
-      "placement": "PhD, Nankai University",
+      "placement": {
+        "zh": "南开大学博士",
+        "en": "PhD, Nankai University"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1341,7 +1506,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Research on Improved VWAP Strategy Based on Time Segmentation and Dynamic Adjustment Mechanism",
-      "placement": "",
+      "placement": {
+        "zh": "待更新",
+        "en": "To be updated"
+      },
       "links": {},
       "paperIds": []
     },
@@ -1352,7 +1520,10 @@
       "current": false,
       "supervision": "Prime",
       "thesis": "Empirical Study on Stock Selection Strategies Analyzing Characteristics During Covid-19",
-      "placement": "",
+      "placement": {
+        "zh": "待更新",
+        "en": "To be updated"
+      },
       "links": {},
       "paperIds": []
     }

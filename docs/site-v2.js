@@ -6,11 +6,12 @@ function filter(updateUrl=false){
  const count=document.querySelector('#publication-count');if(!count)return;
  const query=(search.value||'').trim().toLowerCase();let n=0;
  document.querySelectorAll('.publication').forEach(p=>{p.hidden=!((!year||p.dataset.year===year)&&(!topic.value||p.dataset.topic===topic.value)&&p.dataset.search.includes(query));if(!p.hidden)n++;});
+ document.querySelectorAll('.publication-year-group').forEach(g=>{g.hidden=!g.querySelector('.publication:not([hidden])');});
  count.textContent=root.dataset.locale==='en'?`${n} research record${n===1?'':'s'}`:`找到 ${n} 篇成果`;document.querySelector('#no-publications').hidden=n!==0;
  document.querySelectorAll('[data-filter-year]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filterYear===year)));
  if(updateUrl){const u=new URL(location.href);u.searchParams.delete('author');['q','year','topic'].forEach(k=>u.searchParams.delete(k));if(search.value)u.searchParams.set('q',search.value);if(year)u.searchParams.set('year',year);if(topic.value)u.searchParams.set('topic',topic.value);history.replaceState(null,'',u);}
 }
-function locale(value){root.dataset.locale=value;root.lang=value==='zh'?'zh-CN':'en';langButton.textContent=value==='zh'?'EN':'中文';langButton.setAttribute('aria-label',value==='zh'?'Switch to English':'切换为中文');document.querySelectorAll('[data-option-zh]').forEach(o=>o.textContent=value==='zh'?o.dataset.optionZh:o.dataset.optionEn);document.title=(value==='zh'?document.body.dataset.titleZh+' · 张光研究团队':document.body.dataset.titleEn+' · Guang Zhang Research Group');try{localStorage.setItem('lab-locale',value);}catch{}filter();}
+function locale(value){root.dataset.locale=value;root.lang=value==='zh'?'zh-CN':'en';langButton.textContent=value==='zh'?'EN':'中文';langButton.setAttribute('aria-label',value==='zh'?'Switch to English':'切换为中文');document.querySelectorAll('[data-option-zh]').forEach(o=>o.textContent=value==='zh'?o.dataset.optionZh:o.dataset.optionEn);document.title=(value==='zh'?document.body.dataset.titleZh+' · AIDE Lab':document.body.dataset.titleEn+' · AIDE Lab');try{localStorage.setItem('lab-locale',value);}catch{}filter();}
 locale(root.dataset.locale==='en'?'en':'zh');langButton.addEventListener('click',()=>locale(root.dataset.locale==='zh'?'en':'zh'));
 function closeMenu(focus=false){nav.classList.remove('open');menuButton.setAttribute('aria-expanded','false');if(focus)menuButton.focus();}
 menuButton.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));});

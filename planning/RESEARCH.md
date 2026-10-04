@@ -8,7 +8,7 @@
 
 [学校档案](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=32)确认张光为社会枢纽金融科技学域助理教授，2021 年 5 月获波士顿大学经济学博士。研究兴趣列为 FinTech、Financial Econometrics、Machine Learning、Empirical Finance。公开邮箱 guangzhang@hkust-gz.edu.cn，办公室 W1 L5 509。
 
-学校档案还列有“广州市金融科技前沿研究重点实验室”项目，但记录 isLeader=0；这不足以把它作为本研究组正式名称。现用“张光研究组 / Guang Zhang Research Group”与 GZ 作为可替换的描述性工作名称。
+学校档案还列有“广州市金融科技前沿研究重点实验室”项目，但记录 isLeader=0；这不足以把它作为本研究组正式名称。已确认使用 AIDE Lab（AI, Decisions & Economics；智能决策与经济研究实验室）作为实验室名称，张光为负责人。
 
 学生论文显示研究已拓展至 LLM 训练与评价、商业推理、多智能体研究及社会决策。网站以三条主线组织：①大模型学习与推理；②智能体协作与决策；③金融数据与计量模型。比仅以量化交易为中心更贴合现有资料。
 
