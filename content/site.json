@@ -14,12 +14,12 @@
     "en": "HKUST(GZ) · Financial Technology"
   },
   "hero": {
-    "zh": "让智能，<br>理解<span>真实世界的决策。</span>",
-    "en": "Intelligence for<br><span>real-world decisions.</span>"
+    "zh": "理解真实世界的决策。",
+    "en": "Intelligence for real-world decisions."
   },
   "intro": {
-    "zh": "我们研究金融与经济中的智能方法：从大模型的学习与推理，到智能体的协作与决策，再到金融市场的建模与实证。研究由香港科技大学（广州）金融科技学域张光助理教授带领。",
-    "en": "We study intelligence in finance and economics—from how language models learn and reason, to how agents collaborate and decide, to modeling financial markets. Led by Guang Zhang at HKUST(GZ)."
+    "zh": "AIDE Lab 研究智能方法在金融与经济问题中的构建、评估与应用，关注大模型学习与推理、智能体协作与决策，以及金融数据与市场建模。",
+    "en": "AIDE Lab studies how intelligent methods can be built, evaluated, and used in finance and economics. Our work spans language-model learning and reasoning, agent collaboration and decision-making, and financial data and market modeling."
   },
   "research": [
     {
@@ -30,8 +30,8 @@
         "en": "Learning & reasoning"
       },
       "description": {
-        "zh": "研究训练数据的选择与混合，评估大模型在商业任务中的推理能力，并诊断记忆、推理与指令遵循中的失误。",
-        "en": "Studying training-data selection and mixing, evaluating business reasoning, and diagnosing failures in memory, reasoning, and instruction following."
+        "zh": "从数据混合与训练过程，到商业知识与模型失误，我们研究大模型如何学习、推理，以及如何被可靠地评估。",
+        "en": "From data mixing and training dynamics to business reasoning and model failures, we study how language models learn, reason, and can be evaluated reliably."
       },
       "tags": [
         {
@@ -57,8 +57,8 @@
         "en": "Agents & decisions"
       },
       "description": {
-        "zh": "探索知识驱动的多智能体研究流程，以及语言模型在多轮交互、社会情境与经济决策中的行为。",
-        "en": "Exploring knowledge-grounded multi-agent research and language-model behavior in multi-turn interactions, social settings, and economic decisions."
+        "zh": "我们研究多智能体如何检索知识、组织研究流程，并在社会与经济情境中作出判断。",
+        "en": "We study how multi-agent systems retrieve knowledge, organize research workflows, and make judgments in social and economic settings."
       },
       "tags": [
         {
@@ -84,8 +84,8 @@
         "en": "Markets & models"
       },
       "description": {
-        "zh": "结合金融计量、随机过程与机器学习，研究金融时间序列、市场事件的传播及实证金融问题。",
-        "en": "Combining financial econometrics, stochastic processes, and machine learning to study time series, market-event propagation, and empirical finance."
+        "zh": "结合金融计量、随机过程与机器学习，研究时间序列、事件传播与市场行为。",
+        "en": "Combining financial econometrics, stochastic processes, and machine learning, we study time series, event propagation, and market behavior."
       },
       "tags": [
         {
@@ -1067,8 +1067,8 @@
       },
       "photo": "./assets/guang-zhang.jpg",
       "bio": {
-        "zh": "张光博士任香港科技大学（广州）社会枢纽金融科技学域助理教授，2021 年 5 月获波士顿大学经济学博士学位。研究兴趣包括金融科技、金融计量经济学、机器学习与实证金融。",
-        "en": "Guang Zhang is an Assistant Professor in the Financial Technology Thrust, Society Hub, at HKUST(GZ). He received his Ph.D. in Economics from Boston University in May 2021. His research interests include FinTech, financial econometrics, machine learning, and empirical finance."
+        "zh": "张光是香港科技大学（广州）金融科技学域助理教授，2021 年获波士顿大学经济学博士学位。他的研究连接金融科技、金融计量、机器学习与实证金融。",
+        "en": "Guang Zhang is an Assistant Professor in the Financial Technology Thrust at HKUST(GZ). He received his Ph.D. in Economics from Boston University in 2021. His research connects FinTech, financial econometrics, machine learning, and empirical finance."
       },
       "links": {
         "HKUST Profile": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=32",
@@ -1165,8 +1165,8 @@
     "en": "HKUST(GZ) · W1 L5 509"
   },
   "recruitment": {
-    "zh": "对大模型、智能体、金融计量或经济决策感兴趣？欢迎通过公开邮箱与我们交流研究想法。",
-    "en": "Interested in language models, agents, financial econometrics, or economic decisions? Get in touch to discuss research ideas."
+    "zh": "如果你对大模型、智能体、金融计量或经济决策感兴趣，欢迎通过公开邮箱介绍你的研究背景与想法。",
+    "en": "If you work on language models, agents, financial econometrics, or economic decision-making, write to us with a brief introduction to your background and research interests."
   },
   "students": [
     {
