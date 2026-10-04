@@ -1,10 +1,10 @@
 {
   "preview": true,
   "name": {
-    "zh": "张光研究组",
+    "zh": "张光研究团队",
     "en": "Guang Zhang Research Group"
   },
-  "shortName": "GZ",
+  "shortName": "",
   "affiliation": {
     "zh": "香港科技大学（广州） · 金融科技学域",
     "en": "HKUST(GZ) · Financial Technology"
@@ -83,12 +83,14 @@
         "zh": "把章节级知识检索与多智能体协作相结合，从评价反馈中积累研究策略。面向经济与商业研究任务。",
         "en": "Combining section-level knowledge retrieval with multi-agent collaboration and reusable strategies learned from evaluation feedback."
       },
-      "image": "./assets/agents-schematic.svg",
+      "image": "./assets/bizsage-figure.webp",
       "links": {
         "Preprint": "https://arxiv.org/abs/2609.22235",
         "Code": "https://github.com/Kzczc/EMNLP2026-BizSage"
       },
-      "label": "EMNLP 2026 · FINDINGS · ACCEPTED"
+      "label": "EMNLP 2026 · FINDINGS · ACCEPTED",
+      "id": "bizsage",
+      "imageKind": "research"
     },
     {
       "title": {
@@ -99,12 +101,32 @@
         "zh": "从记忆、推理和指令遵循三个阶段诊断模型失误，为理解大模型可靠性提供更细致的评价视角。",
         "en": "Diagnosing failures across memory, reasoning, and instruction following to give a more precise picture of language-model reliability."
       },
-      "image": "./assets/prism-schematic.svg",
+      "image": "./assets/prism-figure.webp",
       "links": {
         "Paper": "https://aclanthology.org/2026.acl-long.1551/",
         "Code": "https://github.com/Kzczc/ACL2026-PRISM"
       },
-      "label": "ACL 2026 · MAIN CONFERENCE"
+      "label": "ACL 2026 · MAIN CONFERENCE",
+      "id": "prism",
+      "imageKind": "research"
+    },
+    {
+      "id": "cis",
+      "title": {
+        "zh": "Caught in the Story：多轮对话中的叙事俘获",
+        "en": "Caught in the Story: narrative captivity"
+      },
+      "summary": {
+        "zh": "研究语言模型在逐步展开的单方叙事中如何形成判断，以及多轮交互如何影响模型的独立判断。",
+        "en": "Studying how one-sided narratives shape language-model judgments, and how multi-turn interaction affects independent judgment."
+      },
+      "image": "./assets/cis-figure.webp",
+      "imageKind": "research",
+      "label": "EMNLP 2026 · FINDINGS · ACCEPTED",
+      "links": {
+        "Preprint": "https://arxiv.org/abs/2609.03407",
+        "Code": "https://github.com/Kzczc/EMNLP2026-Caught-in-the-Story"
+      }
     },
     {
       "title": {
@@ -115,12 +137,14 @@
         "zh": "将动态市场结构与金融理论融入大模型，研究局部事件如何影响相互联系的市场主体。",
         "en": "Bringing dynamic market structure and financial theory into language models to study how local events propagate across connected entities."
       },
-      "image": "./assets/ripple-schematic.svg",
+      "image": "",
       "links": {
         "Paper": "https://aclanthology.org/2025.findings-acl.489/",
         "Code": "https://github.com/CatherineHao/FinRipple"
       },
-      "label": "ACL 2025 · FINDINGS"
+      "label": "ACL 2025 · FINDINGS",
+      "id": "finripple",
+      "imageKind": "none"
     }
   ],
   "publications": [
@@ -444,6 +468,30 @@
         "en": "PRISM, BizCompass, and data-mixing research appear in the ACL 2026 proceedings."
       },
       "url": "https://aclanthology.org/2026.acl-long.1551/"
+    },
+    {
+      "date": "2026-05",
+      "text": {
+        "zh": "HGAN-SDEs 发表于 ICASSP 2026，探索神经随机微分方程的学习。",
+        "en": "HGAN-SDEs appears at ICASSP 2026, studying the learning of neural stochastic differential equations."
+      },
+      "url": "https://doi.org/10.1109/icassp55912.2026.11461468"
+    },
+    {
+      "date": "2025-11",
+      "text": {
+        "zh": "LENS 金融时间序列预训练模型发表于 ACM ICAIF 2025。",
+        "en": "LENS, a pre-trained model for financial time series, appears at ACM ICAIF 2025."
+      },
+      "url": "https://doi.org/10.1145/3768292.3770349"
+    },
+    {
+      "date": "2025-07",
+      "text": {
+        "zh": "FinRipple 收入 ACL 2025 Findings，研究金融事件的涟漪效应。",
+        "en": "FinRipple appears in ACL 2025 Findings, studying financial-event ripple effects."
+      },
+      "url": "https://aclanthology.org/2025.findings-acl.489/"
     }
   ],
   "email": "guangzhang@hkust-gz.edu.cn",
@@ -826,5 +874,6 @@
       "links": {},
       "paperIds": []
     }
-  ]
+  ],
+  "nameFinalized": false
 }

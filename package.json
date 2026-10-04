@@ -1,8 +1,13 @@
 {
   "name": "lab-homepage",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "A bilingual academic lab website, ready for GitHub Pages",
-  "scripts": {"build": "node scripts/build.cjs", "start": "node scripts/serve.cjs"},
-  "engines": {"node": ">=18"}
+  "description": "Six-page bilingual academic website with reference-led design",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "start": "node scripts/serve.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }

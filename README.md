@@ -1,16 +1,18 @@
-# Guang Zhang Research Group
+# Guang Zhang Research Group · HKUST(GZ)
 
-[在线预览](https://kzczc.github.io/lab-homepage/) · [调研与素材清单](https://kzczc.github.io/lab-homepage/references.html) · [English](README.en.md)
+[在线主页](https://kzczc.github.io/lab-homepage/) · [English](README.en.md) · [设计参照](planning/DESIGN.md)
 
-香港科技大学（广州）张光研究组主页：连接大模型学习与推理、智能体协作与决策、金融数据与计量模型。
+面向香港科技大学（广州）张光老师的多页面研究团队网站。正式实验室名称待定，页眉以负责人和学校信息识别。
 
-![Homepage preview](preview-cover.png)
+![首页预览](preview-cover.png)
 
-**3 个研究主题 · 3 个代表项目 · 15 篇公开成果 · 8 名当前学生**
+**首页 · 研究 · 团队 · 论文 · 动态 · 联系与加入**
 
-支持中英切换、论文搜索、年份与主题筛选、成员关联论文、校友展开及手机导航。正式 Lab 名称仍在筹备，GZ 为工作标识。成果来源和待核验区别见 [SOURCES.md](planning/SOURCES.md)。
+整体视觉以西湖大学 MedAI 为主要参照，团队页参考 MobiX，研究图与字体参考 CIS。采用深蓝背景、橙色强调、浅灰分区、Mulish/Open Sans、本地字体与可暂停的线网动效。
 
-## 本地运行
+主体包含 3 条研究方向、4 个代表项目、15 条成果、8 名当前学生以及 22 条已完成学位记录。中英文跨页保留；论文支持作者、年份、主题、标题筛选及 BibTeX 复制/下载。成果来源区别见 [SOURCES.md](planning/SOURCES.md)。
+
+## 本地使用
 
 Node.js 18+，无第三方构建依赖。
 
@@ -19,16 +21,17 @@ npm run build
 npm start
 ```
 
-打开 http://127.0.0.1:61332 。修改 `content/site.json` 后重新构建。部署使用 `main:/docs`。
+打开 http://127.0.0.1:61332 。编辑 `content/site.json`，运行构建后同时提交源数据和 `docs/`。GitHub Pages 从 `main:/docs` 发布。
 
 | 文件 | 用途 |
 |---|---|
-| content/site.json | 双语内容、成果和培养记录 |
-| scripts/build.cjs | 生成静态首页 |
-| docs/ | GitHub Pages 发布文件 |
-| planning/RESEARCH.md | 11 个参考网站与研究定位 |
-| planning/MATERIALS.md | 下一批素材清单 |
-| planning/SOURCES.md | 内容来源与差异 |
-| planning/DEPLOYMENT.md | GitHub 上传与 key 使用 |
+| content/site.json | 双语内容、论文、成员和项目 |
+| content/asset-sources.json | 研究图、校园图片、字体来源 |
+| scripts/build-pages.cjs | 六个独立页面的构建器 |
+| docs/site-v2.css | 全站视觉和响应式布局 |
+| docs/site-v2.js | 语言、论文筛选、导航和动效 |
+| planning/DESIGN.md | 设计参照与页面映射 |
+| planning/MATERIALS.md | 尚需收集的素材 |
+| planning/DEPLOYMENT.md | GitHub 与 key 使用方式 |
 
-GitHub PAT 仅用于本地发布；主页无需模型 API key。原始 Word 和本地核对工作文件不上传。预览 `noindex` 不限制访问。PI 肖像及学术资料保留原权利；研究图为原创概念图；字体许可见 assets。
+GitHub 凭据只在本地发布进程使用；这个静态站不需要模型 API key。字体 OFL 许可证随源码提供，图片保留原权利。预览的 noindex 不限制访问。

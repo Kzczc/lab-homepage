@@ -1,0 +1,42 @@
+[
+  {
+    "asset": "bizsage-figure.webp",
+    "source": "https://raw.githubusercontent.com/Kzczc/EMNLP2026-BizSage/main/assets/framework.png"
+  },
+  {
+    "asset": "prism-figure.webp",
+    "source": "https://raw.githubusercontent.com/Kzczc/ACL2026-PRISM/main/assets/framework.png"
+  },
+  {
+    "asset": "cis-figure.webp",
+    "source": "https://raw.githubusercontent.com/Kzczc/EMNLP2026-Caught-in-the-Story/main/assets/teaser.png"
+  },
+  {
+    "asset": "mulish-700.ttf",
+    "source": "https://fonts.gstatic.com/s/mulish/v18/1Ptyg83HX_SGhgqO0yLcmjzUAuWexXRWwaA.ttf"
+  },
+  {
+    "asset": "mulish-800.ttf",
+    "source": "https://fonts.gstatic.com/s/mulish/v18/1Ptyg83HX_SGhgqO0yLcmjzUAuWexRNWwaA.ttf"
+  },
+  {
+    "asset": "open-sans-400.ttf",
+    "source": "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf"
+  },
+  {
+    "asset": "open-sans-600.ttf",
+    "source": "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf"
+  },
+  {
+    "asset": "campus",
+    "source": "https://material.hkust-gz.edu.cn/wp-content/uploads/2026/01/Aerial-view-of-the-campus-6-scaled.jpg"
+  },
+  {
+    "asset": "campus-alt",
+    "source": "https://material.hkust-gz.edu.cn/wp-content/uploads/2026/01/Aerial-view-of-the-campus-1-scaled.jpg"
+  },
+  {
+    "asset": "hkust-logo",
+    "source": "https://www.hkust-gz.edu.cn/wp-content/themes/hkust-gz-official-0827/images/logo-e-white-2x.png"
+  }
+]

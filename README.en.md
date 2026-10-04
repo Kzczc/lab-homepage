@@ -1,14 +1,16 @@
-# Guang Zhang Research Group
+# Guang Zhang Research Group · HKUST(GZ)
 
-[Website](https://kzczc.github.io/lab-homepage/) · [References](https://kzczc.github.io/lab-homepage/references.html) · [中文](README.md)
+[Website](https://kzczc.github.io/lab-homepage/) · [中文](README.md) · [Design references](planning/DESIGN.md)
 
-A bilingual research-group website at HKUST(GZ), connecting learning and reasoning, agents and decisions, and financial modeling.
+A six-page bilingual academic website. The formal lab name is still being discussed; the header identifies the PI and university.
 
 ![Homepage preview](preview-cover.png)
 
-Three research themes, three selected projects, 15 traceable research records, and eight current students. Includes publication search, year/topic filters, author links, completed-degree records, mobile navigation, and persistent language selection.
+**Home · Research · Team · Publications · News · Join us**
 
-The formal lab name remains under discussion. GZ is a working identity. Source distinctions and outstanding verification items are documented in [SOURCES.md](planning/SOURCES.md).
+The visual structure follows Westlake MedAI, the team sidebar follows MobiX, and project presentation and open-source typefaces draw on CIS. Features include a dark-blue animated wireframe, orange accents, gray/white content sections, locally hosted Mulish/Open Sans, and reduced-motion support.
+
+Three research themes, four selected projects, 15 research records, eight current students, and 22 completed-degree records. Language preference persists across pages. Publication filters support shareable URLs, author links, citation copying, and a complete BibTeX download.
 
 ## Run locally
 
@@ -19,6 +21,6 @@ npm run build
 npm start
 ```
 
-Open http://127.0.0.1:61332 . Edit `content/site.json`, rebuild, and commit both content and `docs/`. GitHub Pages publishes `main:/docs`.
+Open http://127.0.0.1:61332 . Edit `content/site.json`, rebuild, and commit the source and `docs/`. GitHub Pages publishes `main:/docs`.
 
-GitHub credentials are used only by the local publishing process. This static site needs no model API key. Original Word files and local review files are excluded from publishing. The preview remains public with noindex metadata. Illustrations are original conceptual diagrams; academic materials and the PI photograph retain their original rights.
+See `planning/DESIGN.md` for the design mapping, `planning/SOURCES.md` for verification distinctions, and `content/asset-sources.json` for image/font origins. Academic images retain their original rights; font licenses are included. Credentials are confined to the local publishing process. The preview is public and carries noindex metadata.
