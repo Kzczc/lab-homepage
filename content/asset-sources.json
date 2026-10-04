@@ -38,5 +38,13 @@
   {
     "asset": "hkust-logo",
     "source": "https://www.hkust-gz.edu.cn/wp-content/themes/hkust-gz-official-0827/images/logo-e-white-2x.png"
+  },
+  {
+    "asset": "finripple-figure.webp",
+    "source": "https://arxiv.org/html/2505.23826v1/framework0208.png"
+  },
+  {
+    "asset": "cis-pipeline.webp",
+    "source": "https://raw.githubusercontent.com/Kzczc/EMNLP2026-Caught-in-the-Story/main/assets/pipeline.png"
   }
 ]

@@ -30,7 +30,7 @@ MedAI 的主要配色为深蓝、#F18D00 橙色、#F3F5F7 灰底。新版采用�
 
 ## 图片与内容
 
-- BizSage、PRISM、Caught in the Story 已使用作者公开仓库里的真实框架图/示意图，来源见 content/asset-sources.json。
+- BizSage、PRISM、Caught in the Story 使用作者公开仓库里的真实框架图/示意图；FinRipple 使用预印本 Figure 2。来源见 content/asset-sources.json。
 - 校园图片和学校字标来自 HKUST(GZ) 官网；PI 照片仍采用学校档案公开版本。上述材料保留原有权利。
 - 未确定成员照片继续用姓名缩写显示；不生成虚构人像。
 - 15 条成果、指导关系及来源差异保留前一版的核验口径。两篇待核验论文仍未直接发布为正式成果。

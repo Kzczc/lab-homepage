@@ -126,7 +126,8 @@
       "links": {
         "Preprint": "https://arxiv.org/abs/2609.03407",
         "Code": "https://github.com/Kzczc/EMNLP2026-Caught-in-the-Story"
-      }
+      },
+      "researchImage": "./assets/cis-pipeline.webp"
     },
     {
       "title": {
@@ -137,14 +138,14 @@
         "zh": "将动态市场结构与金融理论融入大模型，研究局部事件如何影响相互联系的市场主体。",
         "en": "Bringing dynamic market structure and financial theory into language models to study how local events propagate across connected entities."
       },
-      "image": "",
+      "image": "./assets/finripple-figure.webp",
       "links": {
         "Paper": "https://aclanthology.org/2025.findings-acl.489/",
         "Code": "https://github.com/CatherineHao/FinRipple"
       },
       "label": "ACL 2025 · FINDINGS",
       "id": "finripple",
-      "imageKind": "none"
+      "imageKind": "research"
     }
   ],
   "publications": [
