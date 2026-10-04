@@ -7,7 +7,7 @@
 - PI：[学校官方教师档案](https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=32)，[本人主页](https://sites.google.com/view/guang-zhang/home)。图片为该教师档案所链接公开肖像，保留原权利。正式版可换用负责人选定版本。
 - 培养记录：团队提供的 Students.docx；30 条记录、28 个姓名。周期是原表培养周期，不宣称为实际毕业日期。
 - Yuhe Wu：[个人主页](https://kzczc-github-io.vercel.app)明确记载 2026.09 起读博、导师 Guang Zhang；与名单及论文交叉匹配。
-- Yuanjian Xu：[GitHub](https://github.com/xuyj233)公开显示姓名，并有 DiReCT、D3、HGAN-SDE 仓库；与提供名单、共同作者记录匹配。其余姓名没有充分确认的个人主页时不补猜测链接。
+- Yuanjian Xu：[GitHub](https://github.com/xuyj233)公开显示姓名，并有 DiReCT、D3、HGAN-SDE、Timeseries 等仓库；公开 Google Scholar 页面需要登录，未找到可安全确认的个人 profile，因此新增成果均以 arXiv、Semantic Scholar 与 GitHub 交叉核验。
 - 旧稿 ORCID 未在此人的学校档案得到核实，已移除。
 
 ## 成果来源
@@ -30,6 +30,9 @@
 | HGAN-SDEs: Learning Neural Stochastic Differential Equations with Hermite-Guided Adversarial Training | ICASSP 2026 · 2026 | [Code](https://github.com/xuyj233/HGAN-SDE) · [DOI](https://doi.org/10.1109/icassp55912.2026.11461468) |
 | FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness | ACL 2025 · Findings · 2025 | [Paper](https://aclanthology.org/2025.findings-acl.489/) · [PDF](https://aclanthology.org/2025.findings-acl.489.pdf) · [Code](https://github.com/CatherineHao/FinRipple) · [DOI](https://doi.org/10.18653/v1/2025.findings-acl.489) |
 
+| Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses? | arXiv · 2026 | [arXiv](https://arxiv.org/abs/2608.04828) · [Figure](https://arxiv.org/html/2608.04828v1/skill-use.png) |
+| CoCo-Bench: A Comprehensive Code Benchmark For Multi-task Large Language Model Evaluation | arXiv · 2025 | [arXiv](https://arxiv.org/abs/2504.20673) · [Figure](https://arxiv.org/html/2504.20673v1/introfig1.png) |
+
 ## 需要特别注意的差异
 
 - FinRipple：正式卷为 ACL 2025 Findings，不简写为主会。
@@ -40,7 +43,7 @@
 - BizSage、Caught in the Story：预印本和作者公开仓库标注 EMNLP 2026 Findings 接收；未伪造正式论文集 DOI。
 - DiReCT：Spotlight 依据作者公开仓库；未独立取得会议官方详情链接。
 - HGAN-SDEs：DOI 和作者已核验，未取得 Oral 官方日程，因此首页不标 Oral。
-- D3 与 Mechanism Alignment：待补充分公开资料，尚未进入公开论文列表。未找到不表示论文不存在或未接收。
+- D3：已有 ICML 会议页面；Mechanism Alignment：Yuhe Wu 主页记录为 EMNLP 2026 Main 接收，页面保留来源链接。
 
 ## 图片、字体与参考站
 

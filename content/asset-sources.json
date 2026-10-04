@@ -164,5 +164,15 @@
     "asset": "minion-8.webp",
     "source": "https://www.illumination.com/wp-content/uploads/2019/11/DM3_Minions.png",
     "credit": "Illumination; temporary placeholder character art; cropped from group image"
+  },
+  {
+    "asset": "paper-skill-use.webp",
+    "source": "https://arxiv.org/html/2608.04828v1/skill-use.png",
+    "paper": "https://arxiv.org/html/2608.04828"
+  },
+  {
+    "asset": "paper-coco-bench.webp",
+    "source": "https://arxiv.org/html/2504.20673v1/introfig1.png",
+    "paper": "https://arxiv.org/html/2504.20673"
   }
 ]
