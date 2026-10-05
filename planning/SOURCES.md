@@ -48,7 +48,7 @@
 
 ## 图片、字体与参考站
 
-本站研究图优先采用论文和作者仓库的原图。Mechanism Alignment 目前使用用户提供的论文卡片截图裁切图，分辨率低于正式论文图；不可把另一篇论文的图混用。Inter 字体许可证随 docs/assets/INTER-LICENSE.txt 提供。
+本站研究图优先采用论文和作者仓库的原图。Mechanism Alignment 使用用户于 2026-10-06 提供的 1006.png（4097 × 1650）；网页版本合成白底并无损编码。Inter 字体许可证随 docs/assets/INTER-LICENSE.txt 提供。
 
 
 ## 第二版新增图片与字体
