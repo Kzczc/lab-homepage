@@ -1078,24 +1078,6 @@
   ],
   "news": [
     {
-      "date": "2026-09",
-      "icon": "🧪",
-      "text": {
-        "zh": "Count Evidence 预印本公开，研究长文本价值测量中的证据融合。",
-        "en": "Count Evidence releases a preprint on evidence fusion for long-text value measurement."
-      },
-      "url": "https://arxiv.org/abs/2609.27165"
-    },
-    {
-      "date": "2026-09",
-      "icon": "🎉",
-      "text": {
-        "zh": "BizSage 与 Caught in the Story 预印本公开，并获 EMNLP 2026 接收。",
-        "en": "BizSage and Caught in the Story release preprints and are accepted to EMNLP 2026."
-      },
-      "url": "https://arxiv.org/abs/2609.22235"
-    },
-    {
       "date": "2026-07-09",
       "icon": "🏅",
       "text": {
@@ -1630,5 +1612,5 @@
       "paperIds": []
     }
   ],
-  "nameFinalized": false
+  "nameFinalized": true
 }

@@ -43,3 +43,9 @@
 .student-portrait{display:block;width:88px;height:88px;object-fit:cover;border-radius:50%;margin-bottom:18px;background:#eef3f8;box-shadow:0 4px 14px #09213c12}
 .student-initials{display:none}
 @media(max-width:640px){.publication:not(.publication-compact) .paper-figure{float:none;width:100%;margin:0 0 17px}.publication:not(.publication-compact) .paper-figure img{height:180px}}
+
+/* Figures are editorial plates: keep their own white field and never apply the
+   landing-page gradient or image filters to them. */
+.feature-card>img,.paper-figure img,.project-image img{background:#fff!important;opacity:1!important;filter:none!important;mix-blend-mode:normal!important}
+.feature-overlay{background:#fff!important;position:static!important;color:var(--text)!important}
+.paper-figure,.paper-figure-link,.project-image{background:#fff!important}
