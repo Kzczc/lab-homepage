@@ -22,7 +22,7 @@ MedAI 的主要配色为深蓝、#F18D00 橙色、#F3F5F7 灰底。新版采用�
 | 首页 | [Home](https://kzczc.github.io/lab-homepage/index.html) | 研究定位、3 个图文项目入口、研究概览、精选论文、动态、团队介绍与 PI |
 | 研究 | [Research](https://kzczc.github.io/lab-homepage/research.html) | 三条研究主线、相关成果链接、13 张论文图与 4 个代表项目 |
 | 团队 | [Team](https://kzczc.github.io/lab-homepage/team.html) | PI 侧栏、8 名当前学生、22 条已完成学位记录 |
-| 论文 | [Publications](https://kzczc.github.io/lab-homepage/publications.html) | 21 条成果、年份侧栏、主题/作者/标题筛选、BibTeX 复制与全集下载 |
+| 论文 | [Publications](https://kzczc.github.io/lab-homepage/publications.html) | 17 条已发表或已接收成果、年份侧栏、主题/作者/标题筛选、BibTeX 复制与全集下载 |
 | 动态 | [News](https://kzczc.github.io/lab-homepage/news.html) | 按年份列出的研究进展与来源链接 |
 | 联系与加入 | [Join](https://kzczc.github.io/lab-homepage/join.html) | 公开邮箱、办公室、研究交流方式与校园图 |
 
@@ -33,7 +33,7 @@ MedAI 的主要配色为深蓝、#F18D00 橙色、#F3F5F7 灰底。新版采用�
 - BizSage、PRISM、Caught in the Story 使用作者公开仓库里的真实框架图/示意图；FinRipple 使用预印本 Figure 2。来源见 content/asset-sources.json。
 - 校园图片和学校字标来自 HKUST(GZ) 官网；PI 照片仍采用学校档案公开版本。上述材料保留原有权利。
 - 正式照片到位前，当前成员使用不同 Minion 临时占位图，并在数据中保留可替换入口。
-- 21 条成果、指导关系及来源差异保留核验口径；新增 Skill-Use 与 CoCo-Bench 两条 Yuanjian Xu 合作预印本。
+- 17 条已发表或已接收成果、指导关系及来源差异保留核验口径；新增 Skill-Use 与 CoCo-Bench 两条 Yuanjian Xu 合作预印本。
 - 正式 Lab 名称、成员正式照片、完整团队合影及招生岗位仍待补充。
 
 ## 验证

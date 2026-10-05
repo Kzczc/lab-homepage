@@ -10,7 +10,7 @@ A six-page bilingual academic website for **AIDE Lab — AI, Decisions & Economi
 
 The visual structure follows Westlake MedAI, the team sidebar follows MobiX, and project presentation and open-source typefaces draw on CIS. The original AIDE mark represents four decision paths converging on a central node. Features include a dark-blue animated wireframe, orange accents, gray/white content sections, locally hosted Inter, and reduced-motion support. See [BRAND.md](planning/BRAND.md) for the rationale.
 
-Three research themes, 13 paper figures and Minion placeholders for current students and four selected projects, 21 research records, eight current students, and 22 completed-degree records. Language preference persists across pages. Publication filters support shareable URLs, author links, citation copying, and a complete BibTeX download.
+Three research themes, 11 paper figures and Minion placeholders for current students and four selected projects, 17 published or accepted research records, eight current students, and 22 completed-degree records. Language preference persists across pages. Publication filters support shareable URLs, author links, citation copying, and a complete BibTeX download.
 
 ## Run locally
 

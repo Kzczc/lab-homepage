@@ -11,7 +11,10 @@ const assetVersion=require('crypto').createHash('sha256').update(fs.readFileSync
 const pages=[['index','首页','Home'],['research','研究','Research'],['team','团队','Team'],['publications','论文','Publications'],['news','动态','News'],['join','加入我们','Join us']];
 const pi=d.people[0];
 const paperSort=(a,b)=>b.year-a.year || (b.conferencePriority||0)-(a.conferencePriority||0) || (b.sortOrder||0)-(a.sortOrder||0) || String(b.sortDate||'').localeCompare(String(a.sortDate||'')) || String(a.title.en||a.title).localeCompare(String(b.title.en||b.title));
-const papers=[...d.publications].sort(paperSort),featuredPapers=papers.filter(p=>p.core),current=d.students.filter(p=>p.current),alumni=d.students.filter(p=>!p.current);
+// The public catalogue is reserved for published or formally accepted work.
+// Keep preprints in the source JSON for provenance and later updates, but do not
+// present unaccepted manuscripts as current lab output.
+const papers=[...d.publications].filter(p=>p.status!=='preprint').sort(paperSort),featuredPapers=papers.filter(p=>p.core),current=d.students.filter(p=>p.current),alumni=d.students.filter(p=>!p.current);
 const newsItems=[...d.news].sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')));
 const resourceLabels={Paper:bi('论文','Paper'),PDF:bi('PDF','PDF'),Code:bi('代码','Code'),DOI:bi('DOI','DOI'),arXiv:bi('预印本','arXiv'),Source:bi('来源','Source'),'ICML poster':bi('会议页面','ICML page'),'HKUST Record':bi('学校记录','HKUST record'),'Research page':bi('研究页','Research page')};
 function bi(zh,en){return {zh,en};}
