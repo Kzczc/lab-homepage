@@ -92,8 +92,12 @@
 .news-year{grid-template-columns:90px minmax(0,1fr);gap:40px}
 .news-item{display:grid;grid-template-columns:95px minmax(0,1fr);gap:28px;padding:0 0 24px;margin-bottom:24px}
 .news-item time{color:var(--blue);font-size:14px;font-weight:600;padding-top:3px}
+.news-item .news-date-link{color:var(--blue);border-bottom:1px dotted #93a9bb;font-size:inherit;white-space:nowrap}
+.news-date-note{font-size:12px;line-height:1.7;color:#526577;margin:0}
 .news-item p{font-size:16px;line-height:1.95;color:#273849;margin:0}
 .news-item a{font-size:inherit;border-bottom:1px solid #b3c6d5;color:var(--blue)}
+.news-item p a[lang=en]{color:#173a58;border-bottom-color:transparent;font-weight:600}
+.news-item p a[lang=en]:hover,.news-item p a[lang=en]:focus-visible{border-bottom-color:#173a58}
 .news-item .news-venue{font-weight:600}
 .news-distinction{display:inline-block;margin:0 5px;padding:0 7px;background:#fff0d8;color:#865000;font-size:13px;border-radius:3px}
 .programme-heading{display:grid;grid-template-columns:70px minmax(0,1fr);gap:24px;margin-bottom:46px}

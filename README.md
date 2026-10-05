@@ -10,7 +10,7 @@
 
 整体视觉以西湖大学 MedAI 为主要参照，团队页参考 MobiX，研究图与字体参考 CIS。采用 AIDE 的深蓝、橙色节点和四向汇聚标志，配合浅灰分区、Inter、本地字体与可暂停的线网动效。Logo 说明见 [BRAND.md](planning/BRAND.md)。
 
-主体包含 3 条研究方向、6 组代表研究、17 条已发表或已接收成果、11 条论文录用动态、8 名当前学生以及 22 条已完成学位记录；其中 EMNLP 2026 接收 3 篇，当前成员使用不同 Minion 临时头像占位。首次访问默认英文，手动切换后跨页保留。论文图片可放大并切换原始尺寸；论文支持作者、年份、主题、标题筛选及 BibTeX 复制/下载。成果来源区别见 [SOURCES.md](planning/SOURCES.md)。
+主体包含 3 条研究方向、6 组代表研究、17 条已发表或已接收成果、11 条按会议作者通知日排序的论文录用动态、8 名当前学生以及 22 条已完成学位记录；其中 EMNLP 2026 接收 3 篇，当前成员使用不同 Minion 临时头像占位。Agents & decisions 展示 BizSage 与 Mechanism Alignment，Caught in the Story 保留在相关成果与论文页。首次访问默认英文，手动切换后跨页保留。论文图片可放大并切换原始尺寸；论文支持作者、年份、主题、标题筛选及 BibTeX 复制/下载。成果来源与日期核验分别见 [SOURCES.md](planning/SOURCES.md) 和 [NEWS-DATES.md](planning/NEWS-DATES.md)。
 
 ## 本地使用
 

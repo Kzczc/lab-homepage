@@ -156,20 +156,20 @@
       }
     },
     {
-      "id": "cis",
+      "id": "mechanism",
       "topic": "agents",
-      "paperId": "cis",
+      "paperId": "mechanism",
       "relatedPaperIds": [
-        "mechanism"
+        "cis"
       ],
-      "name": "Caught in the Story",
+      "name": "Mechanism Alignment",
       "title": {
-        "zh": "社会情境中的判断与决策",
-        "en": "Judgment and decisions in social contexts"
+        "zh": "社会情境中的机制对齐与决策",
+        "en": "Mechanism alignment in social decisions"
       },
       "summary": {
-        "zh": "研究相同事实在不同叙述方式下如何影响模型判断，特别是多轮对话中的叙事俘获。相关的 Mechanism Alignment 工作进一步关注社会情境中的决策机制。",
-        "en": "We examine how different presentations of the same facts affect model judgments, including narrative captivity in multi-turn conversations. Related work on Mechanism Alignment studies decision mechanisms in social contexts."
+        "zh": "研究大模型在涉及他人的选择中如何处理关系与共同结果，关注个体判断与群体行为之间的偏差。相关的 Caught in the Story 工作考察多轮叙事如何影响模型判断。",
+        "en": "We study how language models account for relationships and collective outcomes when making choices that affect others, and where individual judgments diverge from social behavior. Related work on Caught in the Story examines how multi-turn narratives shape model judgments."
       }
     },
     {
@@ -1137,59 +1137,70 @@
   ],
   "news": [
     {
-      "date": "2026-08",
+      "date": "2026-08-20",
       "paperId": "mechanism",
-      "venueUrl": "https://2026.emnlp.org/"
+      "venueUrl": "https://2026.emnlp.org/",
+      "dateSource": "https://2026.emnlp.org/calls/main_conference_papers/"
     },
     {
-      "date": "2026-08",
+      "date": "2026-08-20",
       "paperId": "bizsage",
-      "venueUrl": "https://2026.emnlp.org/"
+      "venueUrl": "https://2026.emnlp.org/",
+      "dateSource": "https://2026.emnlp.org/calls/main_conference_papers/"
     },
     {
-      "date": "2026-08",
+      "date": "2026-08-20",
       "paperId": "cis",
-      "venueUrl": "https://2026.emnlp.org/"
+      "venueUrl": "https://2026.emnlp.org/",
+      "dateSource": "https://2026.emnlp.org/calls/main_conference_papers/"
     },
     {
-      "date": "2026-07",
+      "date": "2026-04-30",
       "paperId": "direct",
-      "venueUrl": "https://icml.cc/Conferences/2026"
+      "venueUrl": "https://icml.cc/Conferences/2026",
+      "dateSource": "https://icml.cc/Conferences/2026/Dates"
     },
     {
-      "date": "2026-07",
+      "date": "2026-04-30",
       "paperId": "d3",
-      "venueUrl": "https://icml.cc/Conferences/2026"
+      "venueUrl": "https://icml.cc/Conferences/2026",
+      "dateSource": "https://icml.cc/Conferences/2026/Dates"
     },
     {
-      "date": "2026-07",
+      "date": "2026-04-04",
       "paperId": "prism",
-      "venueUrl": "https://aclanthology.org/events/acl-2026/"
+      "venueUrl": "https://aclanthology.org/events/acl-2026/",
+      "dateSource": "https://2026.aclweb.org/calls/main_conference_papers/"
     },
     {
-      "date": "2026-07",
+      "date": "2026-04-04",
       "paperId": "bizcompass",
-      "venueUrl": "https://aclanthology.org/events/acl-2026/"
+      "venueUrl": "https://aclanthology.org/events/acl-2026/",
+      "dateSource": "https://2026.aclweb.org/calls/main_conference_papers/"
     },
     {
-      "date": "2026-07",
+      "date": "2026-04-04",
       "paperId": "mixing",
-      "venueUrl": "https://aclanthology.org/events/acl-2026/"
+      "venueUrl": "https://aclanthology.org/events/acl-2026/",
+      "dateSource": "https://2026.aclweb.org/calls/main_conference_papers/"
     },
     {
-      "date": "2026-05",
+      "date": "2026-01-16",
       "paperId": "hgan",
-      "venueUrl": "https://2026.ieeeicassp.org/"
+      "venueUrl": "https://2026.ieeeicassp.org/",
+      "dateSource": "https://2026.ieeeicassp.org/call-for-papers/"
     },
     {
-      "date": "2025-11",
+      "date": "2025-09-26",
       "paperId": "lens",
-      "venueUrl": "https://doi.org/10.1145/3768292.3770349"
+      "venueUrl": "https://icaif25.org/",
+      "dateSource": "https://icaif25.org/calls-for-papers/"
     },
     {
-      "date": "2025-07",
+      "date": "2025-05-15",
       "paperId": "finripple",
-      "venueUrl": "https://aclanthology.org/events/acl-2025/"
+      "venueUrl": "https://aclanthology.org/events/acl-2025/",
+      "dateSource": "https://2025.aclweb.org/calls/main_conference_papers/"
     }
   ],
   "email": "guangzhang@hkust-gz.edu.cn",

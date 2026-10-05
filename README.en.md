@@ -10,7 +10,7 @@ A six-page bilingual academic website for **AIDE Lab — AI, Decisions & Economi
 
 The visual structure follows Westlake MedAI, the team sidebar follows MobiX, and project presentation and open-source typefaces draw on CIS. The original AIDE mark represents four decision paths converging on a central node. Features include a dark-blue animated wireframe, orange accents, gray/white content sections, locally hosted Inter, and reduced-motion support. See [BRAND.md](planning/BRAND.md) for the rationale.
 
-The site presents three research areas with six project stories, 17 published or accepted papers, 11 acceptance updates, eight current students, and 22 completed-degree records. English is the default for first-time visitors, and an explicit language choice persists across pages. Figures open in a zoomable viewer. Publication filters support shareable URLs, author links, citation copying, and a complete BibTeX download.
+The site presents three research areas with six project stories, 17 published or accepted papers, 11 acceptance updates dated by official conference author-notification schedules, eight current students, and 22 completed-degree records. Agents & decisions features BizSage and Mechanism Alignment; Caught in the Story remains in related work and publications. English is the default for first-time visitors, and an explicit language choice persists across pages. Figures open in a zoomable viewer. Publication filters support shareable URLs, author links, citation copying, and a complete BibTeX download. See [News date sources](planning/NEWS-DATES.md).
 
 ## Run locally
 
