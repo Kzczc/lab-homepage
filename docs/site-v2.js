@@ -11,14 +11,30 @@ function filter(updateUrl=false){
  document.querySelectorAll('[data-filter-year]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filterYear===year)));
  if(updateUrl){const u=new URL(location.href);u.searchParams.delete('author');['q','year','topic'].forEach(k=>u.searchParams.delete(k));if(search.value)u.searchParams.set('q',search.value);if(year)u.searchParams.set('year',year);if(topic.value)u.searchParams.set('topic',topic.value);history.replaceState(null,'',u);}
 }
-function locale(value){root.dataset.locale=value;root.lang=value==='zh'?'zh-CN':'en';langButton.textContent=value==='zh'?'EN':'中文';langButton.setAttribute('aria-label',value==='zh'?'Switch to English':'切换为中文');document.querySelectorAll('[data-option-zh]').forEach(o=>o.textContent=value==='zh'?o.dataset.optionZh:o.dataset.optionEn);document.title=(value==='zh'?document.body.dataset.titleZh+' · AIDE Lab':document.body.dataset.titleEn+' · AIDE Lab');try{localStorage.setItem('lab-locale',value);}catch{}filter();}
-locale(root.dataset.locale==='en'?'en':'zh');langButton.addEventListener('click',()=>locale(root.dataset.locale==='zh'?'en':'zh'));
+function locale(value,save=false){root.dataset.locale=value;root.lang=value==='zh'?'zh-CN':'en';langButton.textContent=value==='zh'?'EN':'中文';langButton.setAttribute('aria-label',value==='zh'?'Switch to English':'切换为中文');document.querySelectorAll('[data-option-zh]').forEach(o=>o.textContent=value==='zh'?o.dataset.optionZh:o.dataset.optionEn);document.title=(value==='zh'?document.body.dataset.titleZh+' · AIDE Lab':document.body.dataset.titleEn+' · AIDE Lab');if(save){try{localStorage.setItem('aide-locale-preference',value);}catch{}}filter();}
+locale(root.dataset.locale==='zh'?'zh':'en');langButton.addEventListener('click',()=>locale(root.dataset.locale==='zh'?'en':'zh',true));
 function closeMenu(focus=false){nav.classList.remove('open');menuButton.setAttribute('aria-expanded','false');if(focus)menuButton.focus();}
 menuButton.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav.classList.contains('open'))closeMenu(true);});
 document.addEventListener('click',e=>{if(!e.target.closest('.site-header'))closeMenu();});
 if(search){const params=new URLSearchParams(location.search);search.value=params.get('author')||params.get('q')||'';year=params.get('year')||'';topic.value=params.get('topic')||'';filter();search.addEventListener('input',()=>filter(true));topic.addEventListener('change',()=>filter(true));document.querySelectorAll('[data-filter-year]').forEach(b=>b.addEventListener('click',()=>{year=b.dataset.filterYear;filter(true);}));document.querySelector('#clear-filters').addEventListener('click',()=>{search.value='';topic.value='';year='';filter(true);});}
 document.querySelectorAll('.copy-citation').forEach(b=>b.addEventListener('click',async()=>{const status=b.nextElementSibling;try{await navigator.clipboard.writeText(b.parentElement.querySelector('pre').textContent);status.textContent=root.dataset.locale==='zh'?'已复制':'Copied';}catch{status.textContent=root.dataset.locale==='zh'?'请选择上方文本复制':'Select and copy the text above';}}));
+// Native modal semantics provide keyboard focus containment and Escape handling.
+const viewer=document.querySelector('#figure-viewer');
+if(viewer&&typeof viewer.showModal==='function'){
+ const image=viewer.querySelector('#figure-viewer-image'),viewport=viewer.querySelector('.figure-viewport'),zoom=viewer.querySelector('#figure-zoom');let opener;
+ function zoomUI(actual){viewer.classList.toggle('actual-size',actual);zoom.setAttribute('aria-pressed',String(actual));zoom.innerHTML=actual?'<span data-lang="zh">适应屏幕</span><span data-lang="en">Fit to screen</span>':'<span data-lang="zh">原始尺寸</span><span data-lang="en">Actual size</span>';viewport.scrollTo(0,0);}
+ document.querySelectorAll('[data-figure]').forEach(a=>a.addEventListener('click',e=>{
+  if(e.button!==0||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;
+  e.preventDefault();opener=a;const source=a.querySelector('img');image.src=a.href;image.alt=source.alt;
+  const caption=a.closest('figure').querySelector('figcaption');viewer.querySelector('#figure-viewer-caption').textContent=caption?.innerText||source.alt;
+  zoomUI(false);viewer.showModal();document.body.classList.add('viewing-figure');
+ }));
+ zoom.addEventListener('click',()=>zoomUI(!viewer.classList.contains('actual-size')));
+ viewer.querySelector('#figure-close').addEventListener('click',()=>viewer.close());
+ viewer.addEventListener('click',e=>{const r=viewer.getBoundingClientRect();if(e.target===viewer&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))viewer.close();});
+ viewer.addEventListener('close',()=>{document.body.classList.remove('viewing-figure');opener?.focus({preventScroll:true});image.removeAttribute('src');});
+}
 // Ambient wireframe follows the dark blue technology background of the reference.
 const canvas=document.querySelector('#network-canvas');if(!canvas)return;const ctx=canvas.getContext('2d');if(!ctx)return;
 const motionButton=document.querySelector('#motion-toggle'),reduce=matchMedia('(prefers-reduced-motion: reduce)');let paused=reduce.matches,visible=true,frame=0,angle=0,width=0,height=0,last=0;

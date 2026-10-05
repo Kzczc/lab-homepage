@@ -174,5 +174,10 @@
     "asset": "paper-coco-bench.webp",
     "source": "https://arxiv.org/html/2504.20673v1/introfig1.png",
     "paper": "https://arxiv.org/html/2504.20673"
+  },
+  {
+    "asset": "paper-mechanism.webp",
+    "source": "User-provided screenshot of the Mechanism Alignment publication card (codex-clipboard-136dcd8b-7193-406e-99a1-2ae27d5707ac.png)",
+    "note": "Cropped preview; replace with the original figure when its public source is available."
   }
 ]

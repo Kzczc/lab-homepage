@@ -106,89 +106,106 @@
   ],
   "projects": [
     {
+      "id": "training",
+      "topic": "models",
+      "paperId": "direct",
+      "relatedPaperIds": [
+        "d3",
+        "mixing"
+      ],
+      "name": "DiReCT · D³",
       "title": {
-        "zh": "BizSage：协作式商业研究",
-        "en": "BizSage · collaborative business research"
+        "zh": "训练数据的选择与调度",
+        "en": "Training data selection and scheduling"
       },
       "summary": {
-        "zh": "把章节级知识检索与多智能体协作相结合，从评价反馈中积累研究策略。面向经济与商业研究任务。",
-        "en": "Combining section-level knowledge retrieval with multi-agent collaboration and reusable strategies learned from evaluation feedback."
-      },
-      "image": "./assets/bizsage-figure.webp",
-      "links": {
-        "Preprint": "https://arxiv.org/abs/2609.22235",
-        "Code": "https://github.com/Kzczc/EMNLP2026-BizSage"
-      },
-      "label": {
-        "zh": "EMNLP 2026 · 已接收",
-        "en": "EMNLP 2026 · Accepted"
-      },
-      "id": "bizsage",
-      "imageKind": "research"
+        "zh": "研究如何根据优化几何与梯度关系选择、混合和排列训练数据。DiReCT 关注退火阶段的样本选择，D³ 将批次间关系建模为方向图，用于动态调度。",
+        "en": "We study how optimization geometry and gradient interactions can guide data selection, mixing, and ordering. DiReCT targets sample selection during annealing; D³ models interactions between batches to schedule training data."
+      }
     },
     {
+      "id": "evaluation",
+      "topic": "models",
+      "paperId": "prism",
+      "relatedPaperIds": [
+        "bizcompass"
+      ],
+      "name": "PRISM · BizCompass",
       "title": {
-        "zh": "PRISM：定位大模型幻觉的来源",
-        "en": "PRISM · diagnosing model hallucinations"
+        "zh": "推理能力与模型失误的评估",
+        "en": "Evaluating reasoning and model failures"
       },
       "summary": {
-        "zh": "从记忆、推理和指令遵循三个阶段诊断模型失误，为理解大模型可靠性提供更细致的评价视角。",
-        "en": "Diagnosing failures across memory, reasoning, and instruction following to give a more precise picture of language-model reliability."
+        "zh": "PRISM 分别诊断记忆、推理与指令遵循中的失误；BizCompass 将推理评估拓展到商业知识与应用。两项工作关注模型能做什么，以及失误发生在哪里。",
+        "en": "PRISM separates failures in source memory, reasoning, and instruction following. BizCompass extends reasoning evaluation to business knowledge and applications. Together, they examine what models can do and where they fail."
+      }
+    },
+    {
+      "id": "bizsage",
+      "topic": "agents",
+      "paperId": "bizsage",
+      "relatedPaperIds": [],
+      "name": "BizSage",
+      "title": {
+        "zh": "面向商业研究的多智能体协作",
+        "en": "Multi-agent collaboration for business research"
       },
-      "image": "./assets/prism-figure.webp",
-      "links": {
-        "Paper": "https://aclanthology.org/2026.acl-long.1551/",
-        "Code": "https://github.com/Kzczc/ACL2026-PRISM"
-      },
-      "label": {
-        "zh": "ACL 2026",
-        "en": "ACL 2026"
-      },
-      "id": "prism",
-      "imageKind": "research"
+      "summary": {
+        "zh": "通过知识图谱与章节级检索组织文献，让多个智能体协作完成商业研究任务，并从评估反馈中积累可复用的研究策略。",
+        "en": "BizSage organizes literature through knowledge graphs and section-level retrieval. Multiple agents collaborate on business research tasks and refine reusable research strategies through evaluation feedback."
+      }
     },
     {
       "id": "cis",
+      "topic": "agents",
+      "paperId": "cis",
+      "relatedPaperIds": [
+        "mechanism"
+      ],
+      "name": "Caught in the Story",
       "title": {
-        "zh": "Caught in the Story：多轮对话中的叙事俘获",
-        "en": "Caught in the Story: narrative captivity"
+        "zh": "社会情境中的判断与决策",
+        "en": "Judgment and decisions in social contexts"
       },
       "summary": {
-        "zh": "研究语言模型在逐步展开的单方叙事中如何形成判断，以及多轮交互如何影响模型的独立判断。",
-        "en": "Studying how one-sided narratives shape language-model judgments, and how multi-turn interaction affects independent judgment."
-      },
-      "image": "./assets/cis-figure.webp",
-      "imageKind": "research",
-      "label": {
-        "zh": "EMNLP 2026 · 已接收",
-        "en": "EMNLP 2026 · Accepted"
-      },
-      "links": {
-        "Preprint": "https://arxiv.org/abs/2609.03407",
-        "Code": "https://github.com/Kzczc/EMNLP2026-Caught-in-the-Story"
-      },
-      "researchImage": "./assets/cis-pipeline.webp"
+        "zh": "研究相同事实在不同叙述方式下如何影响模型判断，特别是多轮对话中的叙事俘获。相关的 Mechanism Alignment 工作进一步关注社会情境中的决策机制。",
+        "en": "We examine how different presentations of the same facts affect model judgments, including narrative captivity in multi-turn conversations. Related work on Mechanism Alignment studies decision mechanisms in social contexts."
+      }
     },
     {
+      "id": "financial-dynamics",
+      "topic": "markets",
+      "paperId": "lens",
+      "relatedPaperIds": [
+        "hgan",
+        "jump"
+      ],
+      "name": "LENS · HGAN-SDEs",
       "title": {
-        "zh": "FinRipple：理解金融事件的涟漪效应",
-        "en": "FinRipple · tracing market ripple effects"
+        "zh": "金融时间序列与随机动态",
+        "en": "Financial time series and stochastic dynamics"
       },
       "summary": {
-        "zh": "将动态市场结构与金融理论融入大模型，研究局部事件如何影响相互联系的市场主体。",
-        "en": "Bringing dynamic market structure and financial theory into language models to study how local events propagate across connected entities."
-      },
-      "image": "./assets/finripple-figure.webp",
-      "links": {
-        "Paper": "https://aclanthology.org/2025.findings-acl.489/",
-        "Code": "https://github.com/CatherineHao/FinRipple"
-      },
-      "label": {
-        "zh": "ACL 2025",
-        "en": "ACL 2025"
-      },
+        "zh": "LENS 通过预训练 Transformer 学习金融时间序列规律；HGAN-SDEs 以对抗训练学习随机动态。这条研究主线连接金融计量、序列建模与生成方法。",
+        "en": "LENS uses a pre-trained Transformer to learn financial time-series regularities. HGAN-SDEs learns stochastic dynamics through adversarial training, connecting financial econometrics with sequence modeling and generative methods."
+      }
+    },
+    {
       "id": "finripple",
-      "imageKind": "research"
+      "topic": "markets",
+      "paperId": "finripple",
+      "relatedPaperIds": [
+        "finflier"
+      ],
+      "name": "FinRipple",
+      "title": {
+        "zh": "金融事件传播与市场理解",
+        "en": "Financial events and market understanding"
+      },
+      "summary": {
+        "zh": "FinRipple 将动态公司关系、金融知识与市场反应相结合，研究事件如何在相互关联的主体间传播。相关的 FinFlier 工作关注金融文本与图表之间的知识关联。",
+        "en": "FinRipple combines changing company relationships, financial knowledge, and market reactions to model how events propagate across connected entities. Related work on FinFlier connects financial narratives with chart-based analysis."
+      }
     }
   ],
   "publications": [
@@ -223,7 +240,9 @@
         "caption": {
           "zh": "LENS 金融时间序列预训练模型架构。",
           "en": "The LENS architecture for financial time-series pretraining."
-        }
+        },
+        "width": 1500,
+        "height": 793
       },
       "distinction": {
         "zh": "",
@@ -450,7 +469,9 @@
         "caption": {
           "zh": "FinFlier 从文本与表格数据生成金融图表叠加层的流程。",
           "en": "FinFlier pipeline for grounded financial chart overlays."
-        }
+        },
+        "width": 1040,
+        "height": 269
       },
       "distinction": {
         "zh": "",
@@ -495,7 +516,9 @@
         "caption": {
           "zh": "BizSage 的知识图谱检索与多智能体协作框架。",
           "en": "BizSage retrieval and multi-agent collaboration framework."
-        }
+        },
+        "width": 1500,
+        "height": 544
       },
       "distinction": {
         "zh": "",
@@ -536,11 +559,13 @@
       "conferencePriority": 6,
       "core": true,
       "figure": {
-        "image": "./assets/paper-cis.webp",
+        "image": "./assets/cis-pipeline.webp",
         "caption": {
           "zh": "Caught in the Story 的受控叙事构建流程。",
           "en": "The controlled narrative construction pipeline of Caught in the Story."
-        }
+        },
+        "width": 1777,
+        "height": 1102
       },
       "distinction": {
         "zh": "",
@@ -565,7 +590,9 @@
         "en": "ICML 2026"
       },
       "links": {
-        "Code": "https://github.com/xuyj233/Direct"
+        "Paper": "https://arxiv.org/abs/2605.31175",
+        "Code": "https://github.com/xuyj233/Direct",
+        "ICML poster": "https://icml.cc/virtual/2026/poster/66576"
       },
       "status": "published",
       "verification": "author-repository",
@@ -584,7 +611,9 @@
         "caption": {
           "zh": "DiReCT 退火阶段的曲率感知样本选择机制。",
           "en": "DiReCT curvature-aware sample selection during annealing."
-        }
+        },
+        "width": 1500,
+        "height": 486
       },
       "distinction": {
         "zh": "Spotlight",
@@ -629,7 +658,9 @@
         "caption": {
           "zh": "PRISM 用于定位大模型幻觉来源的诊断框架。",
           "en": "The PRISM diagnostic framework for locating hallucination sources."
-        }
+        },
+        "width": 1500,
+        "height": 766
       },
       "distinction": {
         "zh": "",
@@ -673,7 +704,9 @@
         "caption": {
           "zh": "BizCompass 商业知识与应用基准的三阶段构建流程。",
           "en": "The three-phase construction pipeline of BizCompass."
-        }
+        },
+        "width": 1500,
+        "height": 755
       },
       "distinction": {
         "zh": "",
@@ -716,7 +749,9 @@
         "caption": {
           "zh": "数据混合研究中的梯度方向与模型中心域。",
           "en": "Gradient directions and model-centric domains in data mixing."
-        }
+        },
+        "width": 1500,
+        "height": 775
       },
       "distinction": {
         "zh": "",
@@ -758,7 +793,9 @@
         "caption": {
           "zh": "HGAN-SDEs 在神经随机微分方程学习中的生成结果。",
           "en": "HGAN-SDEs generation results for neural stochastic differential equations."
-        }
+        },
+        "width": 1500,
+        "height": 659
       },
       "distinction": {
         "zh": "Oral",
@@ -803,7 +840,9 @@
         "caption": {
           "zh": "FinRipple 的动态知识图谱与市场对齐流程。",
           "en": "FinRipple dynamic knowledge graph and market-alignment pipeline."
-        }
+        },
+        "width": 1500,
+        "height": 398
       },
       "distinction": {
         "zh": "",
@@ -842,7 +881,9 @@
         "caption": {
           "zh": "D³ 动态方向图约束的数据调度框架。",
           "en": "The D³ dynamic directional graph-constrained scheduler."
-        }
+        },
+        "width": 1500,
+        "height": 617
       },
       "distinction": {
         "zh": "",
@@ -880,7 +921,9 @@
         "caption": {
           "zh": "大模型多智能体系统的博弈论框架。",
           "en": "A game-theoretic framework for LLM-based multi-agent systems."
-        }
+        },
+        "width": 1108,
+        "height": 1000
       },
       "distinction": {
         "zh": "",
@@ -918,7 +961,9 @@
         "caption": {
           "zh": "长文本价值测量中的证据融合方法。",
           "en": "Evidence fusion for long-text value measurement."
-        }
+        },
+        "width": 870,
+        "height": 400
       },
       "distinction": {
         "zh": "",
@@ -943,7 +988,17 @@
       "topic": "agents",
       "status": "accepted",
       "links": {
+        "Code": "https://github.com/saaranLiu/SEDM-alignment",
         "Source": "https://kzczc-github-io.vercel.app/"
+      },
+      "figure": {
+        "image": "./assets/paper-mechanism.webp",
+        "width": 554,
+        "height": 235,
+        "caption": {
+          "zh": "社会关系情境中的微观选择如何影响群体结果。",
+          "en": "How individual choices in a social context shape collective outcomes."
+        }
       },
       "venue": {
         "zh": "EMNLP 2026",
@@ -1000,7 +1055,9 @@
         "caption": {
           "zh": "Skill-Use 基准从触发、遵循与边界三个维度评估智能体技能使用。",
           "en": "Skill-Use evaluates agent skill use through triggering, compliance, and boundary adherence."
-        }
+        },
+        "width": 634,
+        "height": 216
       },
       "distinction": {
         "zh": "",
@@ -1043,7 +1100,9 @@
         "caption": {
           "zh": "CoCo-Bench 的代码任务、评测维度与多任务基准构成。",
           "en": "CoCo-Bench task design, evaluation dimensions, and multi-task benchmark structure."
-        }
+        },
+        "width": 2040,
+        "height": 1148
       },
       "distinction": {
         "zh": "",
@@ -1078,67 +1137,59 @@
   ],
   "news": [
     {
-      "date": "2026-07-09",
-      "icon": "🏅",
-      "text": {
-        "zh": "DiReCT 在 ICML 2026 公开展示，并获 Spotlight 标记。",
-        "en": "DiReCT is presented at ICML 2026 with a Spotlight distinction."
-      },
-      "url": "https://icml.cc/virtual/2026/poster/66576"
-    },
-    {
-      "date": "2026-07-09",
-      "icon": "📐",
-      "text": {
-        "zh": "D³ 在 ICML 2026 展示动态方向图约束的数据调度框架。",
-        "en": "D³ is presented at ICML 2026 with a dynamic graph-constrained data scheduler."
-      },
-      "url": "https://icml.cc/virtual/2026/poster/62470"
-    },
-    {
-      "date": "2026-07",
-      "icon": "📚",
-      "text": {
-        "zh": "PRISM、BizCompass 与数据混合研究进入 ACL 2026 论文集。",
-        "en": "PRISM, BizCompass, and data-mixing research appear in the ACL 2026 proceedings."
-      },
-      "url": "https://aclanthology.org/2026.acl-long.1551/"
-    },
-    {
-      "date": "2026-05",
-      "icon": "🎙️",
-      "text": {
-        "zh": "HGAN-SDEs 在 ICASSP 2026 以 Oral 形式展示。",
-        "en": "HGAN-SDEs is presented as an Oral at ICASSP 2026."
-      },
-      "url": "https://doi.org/10.1109/icassp55912.2026.11461468"
-    },
-    {
-      "date": "2025-11-15",
-      "icon": "📈",
-      "text": {
-        "zh": "LENS 金融时间序列预训练模型发表于 ACM ICAIF 2025。",
-        "en": "LENS, a pre-trained model for financial time series, appears at ACM ICAIF 2025."
-      },
-      "url": "https://doi.org/10.1145/3768292.3770349"
-    },
-    {
-      "date": "2025-07-01",
-      "icon": "🎉",
-      "text": {
-        "zh": "FinRipple 收入 ACL 2025，研究金融事件的涟漪效应。",
-        "en": "FinRipple appears in ACL 2025, studying financial-event ripple effects."
-      },
-      "url": "https://aclanthology.org/2025.findings-acl.489/"
+      "date": "2026-08",
+      "paperId": "mechanism",
+      "venueUrl": "https://2026.emnlp.org/"
     },
     {
       "date": "2026-08",
-      "icon": "🎉",
-      "text": {
-        "zh": "AIDE Lab 共有三篇研究获 EMNLP 2026 接收：Mechanism Alignment、BizSage 与 Caught in the Story。",
-        "en": "Three AIDE Lab studies are accepted to EMNLP 2026: Mechanism Alignment, BizSage, and Caught in the Story."
-      },
-      "url": "https://kzczc-github-io.vercel.app/"
+      "paperId": "bizsage",
+      "venueUrl": "https://2026.emnlp.org/"
+    },
+    {
+      "date": "2026-08",
+      "paperId": "cis",
+      "venueUrl": "https://2026.emnlp.org/"
+    },
+    {
+      "date": "2026-07",
+      "paperId": "direct",
+      "venueUrl": "https://icml.cc/Conferences/2026"
+    },
+    {
+      "date": "2026-07",
+      "paperId": "d3",
+      "venueUrl": "https://icml.cc/Conferences/2026"
+    },
+    {
+      "date": "2026-07",
+      "paperId": "prism",
+      "venueUrl": "https://aclanthology.org/events/acl-2026/"
+    },
+    {
+      "date": "2026-07",
+      "paperId": "bizcompass",
+      "venueUrl": "https://aclanthology.org/events/acl-2026/"
+    },
+    {
+      "date": "2026-07",
+      "paperId": "mixing",
+      "venueUrl": "https://aclanthology.org/events/acl-2026/"
+    },
+    {
+      "date": "2026-05",
+      "paperId": "hgan",
+      "venueUrl": "https://2026.ieeeicassp.org/"
+    },
+    {
+      "date": "2025-11",
+      "paperId": "lens",
+      "venueUrl": "https://doi.org/10.1145/3768292.3770349"
+    },
+    {
+      "date": "2025-07",
+      "paperId": "finripple",
+      "venueUrl": "https://aclanthology.org/events/acl-2025/"
     }
   ],
   "email": "guangzhang@hkust-gz.edu.cn",

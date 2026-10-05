@@ -1,6 +1,6 @@
 # 实验室网站：第二版设计与页面结构
 
-这版采用参考站的视觉体系重做，并将主体内容拆成六个独立页面。正式实验室名称没有确定；页眉仅使用张光姓名、研究团队说明和 HKUST(GZ) 学校信息，不使用 GZ 作为实验室品牌。
+这版采用参考站的视觉体系重做，并将主体内容拆成六个独立页面。实验室名称使用 AIDE Lab（智能、决策与经济）。
 
 ## 设计依据
 
@@ -19,22 +19,23 @@ MedAI 的主要配色为深蓝、#F18D00 橙色、#F3F5F7 灰底。新版采用�
 
 | 页面 | 链接 | 内容 |
 |---|---|---|
-| 首页 | [Home](https://kzczc.github.io/lab-homepage/index.html) | 研究定位、3 个图文项目入口、研究概览、精选论文、动态、团队介绍与 PI |
-| 研究 | [Research](https://kzczc.github.io/lab-homepage/research.html) | 三条研究主线、相关成果链接、13 张论文图与 4 个代表项目 |
+| 首页 | [Home](https://kzczc.github.io/lab-homepage/index.html) | 研究定位、一幅 ICML 代表成果大图、研究概览、录用动态、精选论文、团队与 PI |
+| 研究 | [Research](https://kzczc.github.io/lab-homepage/research.html) | 三条研究主线，各两组代表研究；论文图支持放大与原始尺寸查看 |
 | 团队 | [Team](https://kzczc.github.io/lab-homepage/team.html) | PI 侧栏、8 名当前学生、22 条已完成学位记录 |
 | 论文 | [Publications](https://kzczc.github.io/lab-homepage/publications.html) | 17 条已发表或已接收成果、年份侧栏、主题/作者/标题筛选、BibTeX 复制与全集下载 |
 | 动态 | [News](https://kzczc.github.io/lab-homepage/news.html) | 按年份列出的研究进展与来源链接 |
 | 联系与加入 | [Join](https://kzczc.github.io/lab-homepage/join.html) | 公开邮箱、办公室、研究交流方式与校园图 |
 
-所有页面有相同导航及当前页状态；中英文选择跨页面保留。成员页可直接进入该成员的论文筛选结果。搜索和筛选条件会保存在当前 URL，便于分享或刷新。网站直接生成静态 HTML，关闭 JavaScript 仍可阅读主体内容。
+所有页面有相同导航及当前页状态；首次打开默认英文，手动选择的语言跨页面保留。成员页可直接进入该成员的论文筛选结果。搜索和筛选条件会保存在当前 URL，便于分享或刷新。网站直接生成静态 HTML，关闭 JavaScript 仍可阅读英文主体内容。
 
 ## 图片与内容
 
 - BizSage、PRISM、Caught in the Story 使用作者公开仓库里的真实框架图/示意图；FinRipple 使用预印本 Figure 2。来源见 content/asset-sources.json。
 - 校园图片和学校字标来自 HKUST(GZ) 官网；PI 照片仍采用学校档案公开版本。上述材料保留原有权利。
 - 正式照片到位前，当前成员使用不同 Minion 临时占位图，并在数据中保留可替换入口。
-- 17 条已发表或已接收成果、指导关系及来源差异保留核验口径；新增 Skill-Use 与 CoCo-Bench 两条 Yuanjian Xu 合作预印本。
-- 正式 Lab 名称、成员正式照片、完整团队合影及招生岗位仍待补充。
+- 17 条已发表或已接收成果出现在公开页面；未接收的预印本只保留在源数据中，不进入论文页或动态。
+- Mechanism Alignment 的示意图来自用户提供的论文卡片截图，现为低分辨率临时版本；可公开访问的原图尚待取得。
+- 成员正式照片、完整团队合影及招生岗位仍待补充。
 
 ## 验证
 

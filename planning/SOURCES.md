@@ -23,12 +23,13 @@
 | FinFlier: Automating Graphical Overlays for Financial Visualizations With Knowledge-Grounding Large Language Model | IEEE TVCG · 2025 | [Code](https://github.com/CatherineHao/FinFlier) · [DOI](https://doi.org/10.1109/tvcg.2024.3514138) |
 | BizSage: A Self-Evolving Multi-Agent Framework for Business Research with Efficient Knowledge Retrieval | EMNLP 2026 · Findings · 2026 | [arXiv](https://arxiv.org/abs/2609.22235) · [Code](https://github.com/Kzczc/EMNLP2026-BizSage) |
 | Caught in the Story: Narrative Captivity in Multi-turn LLMs Conversation | EMNLP 2026 · Findings · 2026 | [arXiv](https://arxiv.org/abs/2609.03407) · [Code](https://github.com/Kzczc/EMNLP2026-Caught-in-the-Story) |
-| Towards Efficient LLMs Annealing with Principled Sample Selection | ICML 2026 · Spotlight · 2026 | [Code](https://github.com/xuyj233/Direct) |
+| Towards Efficient LLMs Annealing with Principled Sample Selection | ICML 2026 · Spotlight · 2026 | [Paper](https://arxiv.org/abs/2605.31175) · [ICML poster](https://icml.cc/virtual/2026/poster/66576) · [Code](https://github.com/xuyj233/Direct) |
 | PRISM: Probing Reasoning, Instruction, and Source Memory in LLM Hallucinations | ACL 2026 · Main (Long Papers) · 2026 | [Code](https://github.com/Kzczc/ACL2026-PRISM) · [Paper](https://aclanthology.org/2026.acl-long.1551/) · [PDF](https://aclanthology.org/2026.acl-long.1551.pdf) |
 | BizCompass: Benchmarking the Reasoning Capabilities of LLMs in Business Knowledge and Applications | ACL 2026 · Findings · 2026 | [Code](https://github.com/CatherineHao/BizCompass) · [Paper](https://aclanthology.org/2026.findings-acl.1198/) · [PDF](https://aclanthology.org/2026.findings-acl.1198.pdf) |
 | Rethinking Data Mixing from the Perspective of Large Language Models | ACL 2026 · Main (Short Papers) · 2026 | [Paper](https://aclanthology.org/2026.acl-short.28/) · [PDF](https://aclanthology.org/2026.acl-short.28.pdf) |
 | HGAN-SDEs: Learning Neural Stochastic Differential Equations with Hermite-Guided Adversarial Training | ICASSP 2026 · 2026 | [Code](https://github.com/xuyj233/HGAN-SDE) · [DOI](https://doi.org/10.1109/icassp55912.2026.11461468) |
 | FinRipple: Aligning Large Language Models with Financial Market for Event Ripple Effect Awareness | ACL 2025 · Findings · 2025 | [Paper](https://aclanthology.org/2025.findings-acl.489/) · [PDF](https://aclanthology.org/2025.findings-acl.489.pdf) · [Code](https://github.com/CatherineHao/FinRipple) · [DOI](https://doi.org/10.18653/v1/2025.findings-acl.489) |
+| Mechanism Alignment for Socially Embedded Decision Making in LLMs | EMNLP 2026 · Main · 2026 | [Yuhe Wu homepage](https://kzczc-github-io.vercel.app/) · [Code](https://github.com/saaranLiu/SEDM-alignment) |
 
 | Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses? | arXiv · 2026 | [arXiv](https://arxiv.org/abs/2608.04828) · [Figure](https://arxiv.org/html/2608.04828v1/skill-use.png) |
 | CoCo-Bench: A Comprehensive Code Benchmark For Multi-task Large Language Model Evaluation | arXiv · 2025 | [arXiv](https://arxiv.org/abs/2504.20673) · [Figure](https://arxiv.org/html/2504.20673v1/introfig1.png) |
@@ -41,13 +42,13 @@
 - Rethinking Data Mixing：ACL 2026 主会短文；PRISM：ACL 2026 主会长文。
 - FinFlier：2024 在线，2025 卷期；Jump Detection：2025 在线，2026 卷期。页面年份按所列出版卷期组织，并保留在线年份说明。
 - BizSage、Caught in the Story：预印本和作者公开仓库标注 EMNLP 2026 Findings 接收；未伪造正式论文集 DOI。
-- DiReCT：Spotlight 依据作者公开仓库；未独立取得会议官方详情链接。
-- HGAN-SDEs：DOI 和作者已核验，未取得 Oral 官方日程，因此首页不标 Oral。
-- D3：已有 ICML 会议页面；Mechanism Alignment：Yuhe Wu 主页记录为 EMNLP 2026 Main 接收，页面保留来源链接。
+- DiReCT：已有 ICML 2026 会议页面；Spotlight 另有作者公开仓库标注。
+- HGAN-SDEs：DOI 和作者已核验；Oral 标记来自团队既有资料，公开会议日程尚未独立取得。
+- D3：已有 ICML 会议页面；Mechanism Alignment：Yuhe Wu 主页记录为 EMNLP 2026 Main 接收，公开仓库目前仅有简短 README。
 
 ## 图片、字体与参考站
 
-本站研究图为原创 SVG 概念图，不展示虚构实验数据。Inter 字体许可证随 docs/assets/INTER-LICENSE.txt 提供。参考网站的品牌、照片和代码没有作为模板复制。
+本站研究图优先采用论文和作者仓库的原图。Mechanism Alignment 目前使用用户提供的论文卡片截图裁切图，分辨率低于正式论文图；不可把另一篇论文的图混用。Inter 字体许可证随 docs/assets/INTER-LICENSE.txt 提供。
 
 
 ## 第二版新增图片与字体
