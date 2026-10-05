@@ -56,7 +56,7 @@ function newsText(n,lang){
  const people=lang==='zh'?names.join('、'):names.length>1?names.slice(0,-1).join(', ')+' and '+names.at(-1):names[0];
  const title=paperUrl(p)?`<a href="${safe(paperUrl(p))}" target="_blank" rel="noopener noreferrer" lang="en">${esc(p.title.en)}</a>`:`<a href="./publications.html#pub-${esc(p.id)}" lang="en">${esc(p.title.en)}</a>`;
  const venue=`<a class="news-venue" href="${safe(n.venueUrl)}" target="_blank" rel="noopener noreferrer">${esc(p.venue.en)}</a>`;
- const award=p.distinction?.en?lang==='zh'?`并获 <strong class="news-distinction">${esc(p.distinction.en)}</strong> 展示。`:`It was selected for an <strong class="news-distinction">${esc(p.distinction.en)}</strong> presentation. `:'';
+ const award=p.distinction?.en?lang==='zh'?`并获 <strong class="news-distinction">${esc(p.distinction.en)}</strong> 展示。`:`It was selected for ${p.distinction.en==='Oral'?'an':'a'} <strong class="news-distinction">${esc(p.distinction.en)}</strong> presentation. `:'';
  return lang==='zh'?`我们的论文“${title}”获 ${venue} 接收。${award}${people?`祝贺 ${esc(people)}！`:''} 🎉`:`Our paper “${title}” has been accepted to ${venue}. ${award}${people?`Congrats to ${esc(people)}!`:''} 🎉`;
 }
 function newsItem(n){return `<article class="news-item"><time datetime="${esc(n.date)}">${esc(n.date.replace('-','.'))}</time><p><span data-lang="en">${newsText(n,'en')}</span><span data-lang="zh">${newsText(n,'zh')}</span></p></article>`;}
