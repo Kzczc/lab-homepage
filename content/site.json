@@ -113,14 +113,14 @@
         "d3",
         "mixing"
       ],
-      "name": "DiReCT · D³",
+      "name": "DiReCT",
       "title": {
         "zh": "训练数据的选择与调度",
         "en": "Training data selection and scheduling"
       },
       "summary": {
-        "zh": "研究如何根据优化几何与梯度关系选择、混合和排列训练数据。DiReCT 关注退火阶段的样本选择，D³ 将批次间关系建模为方向图，用于动态调度。",
-        "en": "We study how optimization geometry and gradient interactions can guide data selection, mixing, and ordering. DiReCT targets sample selection during annealing; D³ models interactions between batches to schedule training data."
+        "zh": "DiReCT 利用曲率信息选择退火阶段的训练样本，抑制横向噪声并增强沿低曲率方向的有效下降。",
+        "en": "DiReCT uses curvature information to select training samples during annealing, reducing transverse noise and strengthening descent along low-curvature directions."
       }
     },
     {
@@ -130,14 +130,14 @@
       "relatedPaperIds": [
         "bizcompass"
       ],
-      "name": "PRISM · BizCompass",
+      "name": "PRISM",
       "title": {
         "zh": "推理能力与模型失误的评估",
         "en": "Evaluating reasoning and model failures"
       },
       "summary": {
-        "zh": "PRISM 分别诊断记忆、推理与指令遵循中的失误；BizCompass 将推理评估拓展到商业知识与应用。两项工作关注模型能做什么，以及失误发生在哪里。",
-        "en": "PRISM separates failures in source memory, reasoning, and instruction following. BizCompass extends reasoning evaluation to business knowledge and applications. Together, they examine what models can do and where they fail."
+        "zh": "PRISM 通过结构化查询分别评估源记忆、推理与指令遵循，定位模型幻觉的来源，并分析不同能力之间的优化权衡。",
+        "en": "PRISM uses structured queries to evaluate source memory, reasoning, and instruction following separately, locating the origins of hallucinations and examining trade-offs between capabilities."
       }
     },
     {
@@ -151,8 +151,8 @@
         "en": "Multi-agent collaboration for business research"
       },
       "summary": {
-        "zh": "通过知识图谱与章节级检索组织文献，让多个智能体协作完成商业研究任务，并从评估反馈中积累可复用的研究策略。",
-        "en": "BizSage organizes literature through knowledge graphs and section-level retrieval. Multiple agents collaborate on business research tasks and refine reusable research strategies through evaluation feedback."
+        "zh": "BizSage 通过知识图谱与章节级检索组织文献，让多个智能体协作完成商业研究任务，并从评估反馈中积累可复用的研究策略。",
+        "en": "BizSage organizes literature through knowledge graphs and section-level retrieval. Multiple agents collaborate on business research tasks and refine reusable strategies through evaluation feedback."
       }
     },
     {
@@ -168,8 +168,8 @@
         "en": "Mechanism alignment in social decisions"
       },
       "summary": {
-        "zh": "研究大模型在涉及他人的选择中如何处理关系与共同结果，关注个体判断与群体行为之间的偏差。相关的 Caught in the Story 工作考察多轮叙事如何影响模型判断。",
-        "en": "We study how language models account for relationships and collective outcomes when making choices that affect others, and where individual judgments diverge from social behavior. Related work on Caught in the Story examines how multi-turn narratives shape model judgments."
+        "zh": "研究大模型在涉及他人的选择中如何处理关系与共同结果，关注个体决策机制与群体行为之间的联系。",
+        "en": "We study how language models account for relationships and collective outcomes when making choices that affect others, connecting individual decision mechanisms with group behavior."
       }
     },
     {
@@ -180,14 +180,14 @@
         "hgan",
         "jump"
       ],
-      "name": "LENS · HGAN-SDEs",
+      "name": "LENS",
       "title": {
         "zh": "金融时间序列与随机动态",
         "en": "Financial time series and stochastic dynamics"
       },
       "summary": {
-        "zh": "LENS 通过预训练 Transformer 学习金融时间序列规律；HGAN-SDEs 以对抗训练学习随机动态。这条研究主线连接金融计量、序列建模与生成方法。",
-        "en": "LENS uses a pre-trained Transformer to learn financial time-series regularities. HGAN-SDEs learns stochastic dynamics through adversarial training, connecting financial econometrics with sequence modeling and generative methods."
+        "zh": "LENS 通过预训练 Transformer 学习金融时间序列规律，将可逆对比学习与时间、通道注意力结合，用于金融序列表示与预测。",
+        "en": "LENS learns financial time-series regularities with a pre-trained Transformer, combining invertible contrastive learning with time- and channel-aware attention for representation and forecasting."
       }
     },
     {
@@ -203,8 +203,8 @@
         "en": "Financial events and market understanding"
       },
       "summary": {
-        "zh": "FinRipple 将动态公司关系、金融知识与市场反应相结合，研究事件如何在相互关联的主体间传播。相关的 FinFlier 工作关注金融文本与图表之间的知识关联。",
-        "en": "FinRipple combines changing company relationships, financial knowledge, and market reactions to model how events propagate across connected entities. Related work on FinFlier connects financial narratives with chart-based analysis."
+        "zh": "FinRipple 将动态公司关系、金融知识与市场反应相结合，研究事件如何在相互关联的市场主体间传播。",
+        "en": "FinRipple combines changing company relationships, financial knowledge, and market reactions to model how events propagate across connected entities."
       }
     }
   ],
