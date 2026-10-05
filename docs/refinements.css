@@ -1,0 +1,77 @@
+/* Shared motion uses short feedback for controls and slow motion for backgrounds. */
+:root{--ease-out:cubic-bezier(.22,1,.36,1);--motion-short:180ms}
+html{scrollbar-gutter:stable}
+.page-hero{background:radial-gradient(ellipse at 90% 75%,#10557488,transparent 60%),linear-gradient(108deg,#051e39,#073b62)}
+.page-hero-art{position:absolute;right:max(0px,calc((100vw - 1400px)/2));top:50%;width:min(49vw,660px);height:100%;transform:translateY(-50%);pointer-events:none;mask-image:linear-gradient(90deg,transparent,#000 26%);opacity:.8}
+.page-hero .container>p{max-width:660px;text-wrap:pretty}
+.art-line,.art-ring{stroke:#74bad0;stroke-width:1;stroke-opacity:.32}
+.art-sheet{fill:#073555;fill-opacity:.7;stroke:#78bfd2;stroke-opacity:.28}
+.art-node{fill:#efb15c;opacity:.9}
+.art-signal{stroke:#f5bb71;stroke-width:1.6;stroke-opacity:.75;stroke-dasharray:3 52;animation:signal-flow 22s linear infinite}
+.art-orbit{transform-origin:382px 160px;animation:orbit-drift 32s ease-in-out infinite alternate}
+.page-hero.is-idle .art-signal,.page-hero.is-idle .art-orbit{animation-play-state:paused}
+@keyframes signal-flow{to{stroke-dashoffset:-550}}
+@keyframes orbit-drift{to{transform:rotate(12deg)}}
+
+.header-inner nav a{transition:background var(--motion-short),color var(--motion-short)}
+.header-inner nav a[aria-current=page]{color:#082442}
+.header-inner nav a:not([aria-current=page]):hover{background:#ffffff15;color:#ffd393}
+.language-toggle{transition:background var(--motion-short),border-color var(--motion-short)}
+.language-toggle:hover{background:#ffffff10;border-color:#c0d3e3}
+.menu-glyph{position:relative;display:block;width:15px;height:16px;margin-left:3px}
+.menu-glyph i{position:absolute;left:0;width:15px;height:1.5px;background:currentColor;top:5px;transition:transform 180ms,top 180ms}
+.menu-glyph i:last-child{top:10px}
+[aria-expanded=true] .menu-glyph i{top:8px;transform:rotate(45deg)}
+[aria-expanded=true] .menu-glyph i:last-child{transform:rotate(-45deg)}
+.button>span[aria-hidden],.section-more>span[aria-hidden],.feature-more>span[aria-hidden],.theme-card>a>span[aria-hidden],.area-publications>span[aria-hidden]{display:inline-block;transition:transform 220ms var(--ease-out)}
+.button:hover>span[aria-hidden],.section-more:hover>span[aria-hidden],.feature-more:hover>span[aria-hidden],.theme-card>a:hover>span[aria-hidden],.area-publications:hover>span[aria-hidden]{transform:translateX(4px)}
+.member-icon svg{transition:transform 180ms var(--ease-out)}
+.member-icon:hover svg,.member-icon:focus-visible svg{transform:translateY(-2px)}
+.icon-tooltip{transition:opacity 140ms,translate 140ms;translate:0 3px}
+.member-icon:hover .icon-tooltip,.member-icon:focus-visible .icon-tooltip{translate:0 0}
+.student-name-row{flex-wrap:nowrap}
+.student-portrait{object-fit:contain;object-position:center bottom}
+.student-year,.alumnus p{color:#425a6b!important}
+
+.subnav a{position:relative;padding:5px 0;transition:color var(--motion-short)}
+.subnav a:after{content:"";position:absolute;height:2px;left:0;right:0;bottom:-5px;background:var(--orange);transform:scaleX(0);transform-origin:left;transition:transform 220ms var(--ease-out)}
+.subnav a[aria-current=location]:after,.subnav a:hover:after{transform:scaleX(1)}
+.sidebar-links a{border-left:2px solid transparent;padding-left:10px;transition:border-color 160ms,color 160ms}
+.sidebar-links a[aria-current=location]{border-color:var(--orange);color:#875200}
+.project-figure,.publication .paper-figure{transition:border-color 180ms,box-shadow 180ms}
+.project-figure:focus-within,.project-figure:hover,.publication .paper-figure:focus-within,.publication .paper-figure:hover{border-color:#9ebacb;box-shadow:0 4px 18px #0c35550a}
+.figure-link img{transition:none}
+.figure-viewer[open]{animation:viewer-enter 180ms var(--ease-out)}
+.figure-viewer[open]::backdrop{animation:backdrop-enter 180ms ease-out}
+@keyframes viewer-enter{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+@keyframes backdrop-enter{from{opacity:0}to{opacity:1}}
+.year-links button,.publication-tools button{transition:background 160ms,color 160ms,border-color 160ms}
+.year-links button:hover:not([aria-pressed=true]),.publication-tools button:hover{background:#e2ecf3}
+.publication-tools input,.publication-tools select{transition:border-color 160ms,box-shadow 160ms}
+.publication-tools input:focus,.publication-tools select:focus{border-color:#447d9e;box-shadow:0 0 0 3px #28638312}
+#publication-count{color:#425a6b}
+.news-page .news-year{position:relative}
+.news-page .news-year>div{border-left:1px solid #d1dfe8;padding-left:24px}
+.news-page .news-item{position:relative}
+.news-page .news-item:before{content:"";position:absolute;left:-29px;top:10px;width:9px;height:9px;border-radius:50%;border:2px solid white;background:#688ba4;box-shadow:0 0 0 1px #c2d5e2}
+.news-page .news-item:first-child:before{background:var(--orange)}
+.contact-details>span,.footer-label{color:#425a6b}
+.join-information{border-top:2px solid #d69d48;background:linear-gradient(140deg,#f2f6f9,#fafbfc)}
+.join-information h2{font-size:25px}
+.footer-bottom,.footer-bottom a{color:#536a7c}
+
+/* Let the browser handle navigation; no intercepted links or artificial delays. */
+@view-transition{navigation:auto}
+.site-header{view-transition-name:site-header}
+::view-transition-old(root){animation:page-out 110ms ease-out both}
+::view-transition-new(root){animation:page-in 170ms ease-out both}
+::view-transition-group(site-header){animation:none}
+::view-transition-old(site-header){animation:none;opacity:0}
+::view-transition-new(site-header){animation:none}
+@keyframes page-out{to{opacity:0}}
+@keyframes page-in{from{opacity:0}to{opacity:1}}
+@media(max-width:960px){.page-hero-art{width:52vw;opacity:.55}.header-inner nav.open{animation:menu-enter 150ms var(--ease-out)}}
+@keyframes menu-enter{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:640px){.page-hero-art{width:75vw;right:-12vw;opacity:.3}.news-page .news-year>div{padding-left:17px}.news-page .news-item:before{left:-22px;top:7px}.member-icon{width:24px;height:26px}.member-actions{gap:2px}.join-information h2{font-size:22px}.header-inner{gap:8px}.institution,.institution img{width:102px}.menu-toggle{white-space:nowrap;flex-shrink:0}.menu-glyph{flex-shrink:0}.group-identity,.language-toggle{flex-shrink:0}}
+@media(max-width:360px){.header-inner{gap:5px}.institution,.institution img{width:80px}.language-toggle{min-width:32px}.menu-glyph{margin-left:0}.menu-toggle{font-size:10px}}
+@media(prefers-reduced-motion:reduce){@view-transition{navigation:none}*,*:before,*:after{animation:none!important;transition:none!important}html{scroll-behavior:auto}}

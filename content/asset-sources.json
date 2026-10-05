@@ -171,6 +171,16 @@
     "credit": "Illumination; temporary PI placeholder character art"
   },
   {
+    "asset": "minion-holam.webp",
+    "source": "https://www.illumination.com/wp-content/uploads/2020/02/M2_Bob-1.png",
+    "credit": "Illumination; single-character Bob illustration, temporary portrait for Holam Yu"
+  },
+  {
+    "asset": "minion-hanzhi.webp",
+    "source": "https://www.illumination.com/wp-content/themes/illumination/assets/images/bumper_minion.png",
+    "credit": "Illumination; single-character illustration, temporary portrait for Hanzhi Xiao"
+  },
+  {
     "asset": "paper-skill-use.webp",
     "source": "https://arxiv.org/html/2608.04828v1/skill-use.png",
     "paper": "https://arxiv.org/html/2608.04828"

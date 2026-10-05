@@ -27,7 +27,7 @@
       "label": "01",
       "title": {
         "zh": "大模型：学习与推理",
-        "en": "Learning & reasoning"
+        "en": "Learning & Reasoning"
       },
       "description": {
         "zh": "从数据混合与训练过程，到商业知识与模型失误，我们研究大模型如何学习、推理，以及如何被可靠地评估。",
@@ -54,7 +54,7 @@
       "label": "02",
       "title": {
         "zh": "智能体：协作与决策",
-        "en": "Agents & decisions"
+        "en": "Agents & Decisions"
       },
       "description": {
         "zh": "我们研究多智能体如何检索知识、组织研究流程，并在社会与经济情境中作出判断。",
@@ -81,7 +81,7 @@
       "label": "03",
       "title": {
         "zh": "金融：数据与模型",
-        "en": "Markets & models"
+        "en": "Markets & Models"
       },
       "description": {
         "zh": "结合金融计量、随机过程与机器学习，研究时间序列、事件传播与市场行为。",
@@ -1317,7 +1317,8 @@
       "paperIds": []
     },
     {
-      "name": "Hoalm Yu",
+      "name": "Holam Yu",
+      "portrait": "./assets/minion-holam.webp",
       "years": "2022-2026",
       "degree": "PhD",
       "current": true,
@@ -1370,6 +1371,7 @@
     },
     {
       "name": "Hanzhi Xiao",
+      "portrait": "./assets/minion-hanzhi.webp",
       "years": "2025-2027",
       "degree": "Master",
       "current": true,

@@ -1,5 +1,6 @@
 (()=>{'use strict';
 const root=document.documentElement,langButton=document.querySelector('#language-toggle'),menuButton=document.querySelector('#menu-toggle'),nav=document.querySelector('#site-nav');
+const motionPreference=matchMedia('(prefers-reduced-motion: reduce)');
 let year='';
 const search=document.querySelector('#publication-search'),topic=document.querySelector('#publication-topic');
 function filter(updateUrl=false){
@@ -12,11 +13,23 @@ function filter(updateUrl=false){
  if(updateUrl){const u=new URL(location.href);u.searchParams.delete('author');['q','year','topic'].forEach(k=>u.searchParams.delete(k));if(search.value)u.searchParams.set('q',search.value);if(year)u.searchParams.set('year',year);if(topic.value)u.searchParams.set('topic',topic.value);history.replaceState(null,'',u);}
 }
 function locale(value,save=false){root.dataset.locale=value;root.lang=value==='zh'?'zh-CN':'en';langButton.textContent=value==='zh'?'EN':'中文';langButton.setAttribute('aria-label',value==='zh'?'Switch to English':'切换为中文');document.querySelectorAll('[data-option-zh]').forEach(o=>o.textContent=value==='zh'?o.dataset.optionZh:o.dataset.optionEn);document.title=(value==='zh'?document.body.dataset.titleZh+' · AIDE Lab':document.body.dataset.titleEn+' · AIDE Lab');if(save){try{localStorage.setItem('aide-locale-preference',value);}catch{}}filter();}
-locale(root.dataset.locale==='zh'?'zh':'en');langButton.addEventListener('click',()=>locale(root.dataset.locale==='zh'?'en':'zh',true));
+locale(root.dataset.locale==='zh'?'zh':'en');
+langButton.addEventListener('click',()=>{
+ const headerBottom=document.querySelector('.site-header').getBoundingClientRect().bottom;
+ const readingBlock=scrollY>300?[...document.querySelectorAll('.project,.publication:not([hidden]),.student-card,.news-item')].find(el=>{const r=el.getBoundingClientRect();return r.bottom>headerBottom+20&&r.top<innerHeight}):null;
+ const before=readingBlock?.getBoundingClientRect().top;
+ locale(root.dataset.locale==='zh'?'en':'zh',true);
+ if(readingBlock)scrollBy({top:readingBlock.getBoundingClientRect().top-before,behavior:'instant'});
+ const main=document.querySelector('main');main.getAnimations().forEach(a=>a.cancel());
+ if(!motionPreference.matches)main.animate([{opacity:.8},{opacity:1}],{duration:160,easing:'ease-out'});
+});
 function closeMenu(focus=false){nav.classList.remove('open');menuButton.setAttribute('aria-expanded','false');if(focus)menuButton.focus();}
 menuButton.addEventListener('click',()=>{const open=nav.classList.toggle('open');menuButton.setAttribute('aria-expanded',String(open));});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav.classList.contains('open'))closeMenu(true);});
 document.addEventListener('click',e=>{if(!e.target.closest('.site-header'))closeMenu();});
+nav.addEventListener('click',e=>{if(e.target.closest('a'))closeMenu();});
+document.addEventListener('focusin',e=>{if(nav.classList.contains('open')&&!e.target.closest('.site-header'))closeMenu();});
+matchMedia('(min-width: 961px)').addEventListener('change',()=>closeMenu());
 if(search){const params=new URLSearchParams(location.search);search.value=params.get('author')||params.get('q')||'';year=params.get('year')||'';topic.value=params.get('topic')||'';filter();search.addEventListener('input',()=>filter(true));topic.addEventListener('change',()=>filter(true));document.querySelectorAll('[data-filter-year]').forEach(b=>b.addEventListener('click',()=>{year=b.dataset.filterYear;filter(true);}));document.querySelector('#clear-filters').addEventListener('click',()=>{search.value='';topic.value='';year='';filter(true);});}
 document.querySelectorAll('.copy-citation').forEach(b=>b.addEventListener('click',async()=>{const status=b.nextElementSibling;try{await navigator.clipboard.writeText(b.parentElement.querySelector('pre').textContent);status.textContent=root.dataset.locale==='zh'?'已复制':'Copied';}catch{status.textContent=root.dataset.locale==='zh'?'请选择上方文本复制':'Select and copy the text above';}}));
 // Native modal semantics provide keyboard focus containment and Escape handling.
@@ -27,7 +40,7 @@ if(viewer&&typeof viewer.showModal==='function'){
  document.querySelectorAll('[data-figure]').forEach(a=>a.addEventListener('click',e=>{
   if(e.button!==0||e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;
   e.preventDefault();opener=a;const source=a.querySelector('img');image.src=a.href;image.alt=source.alt;
-  const caption=a.closest('figure').querySelector('figcaption');viewer.querySelector('#figure-viewer-caption').textContent=caption?.innerText||source.alt;
+  const caption=a.closest('figure').querySelector('figcaption');viewer.querySelector('#figure-viewer-caption').textContent=caption?.querySelector(`[data-lang="${root.dataset.locale}"]`)?.textContent||caption?.textContent||source.alt;
   zoomUI(false);viewer.showModal();document.body.classList.add('viewing-figure');
  }));
  zoom.addEventListener('click',()=>zoomUI(!viewer.classList.contains('actual-size')));
@@ -73,14 +86,37 @@ if(carousel){
  track.addEventListener('pointerdown',e=>{if(e.pointerType!=='mouse'||e.button!==0)return;drag={id:e.pointerId,x:e.clientX,left:track.scrollLeft};dragged=false;clearTimeout(timer)});
  track.addEventListener('pointermove',e=>{if(!drag||e.pointerId!==drag.id)return;const dx=e.clientX-drag.x;if(Math.abs(dx)>7&&!dragged){dragged=true;track.setPointerCapture(e.pointerId);track.classList.add('is-dragging')}if(dragged){e.preventDefault();track.scrollLeft=drag.left-dx}});
  function release(e){if(!drag||e.pointerId!==drag.id)return;drag=null;if(dragged){track.classList.remove('is-dragging');if(track.hasPointerCapture(e.pointerId))track.releasePointerCapture(e.pointerId);settle();go(index,true,true)}else schedule();}
- track.addEventListener('pointerup',release);track.addEventListener('pointercancel',release);
+ window.addEventListener('pointerup',release);track.addEventListener('pointercancel',release);
+ window.addEventListener('blur',()=>{if(drag){drag=null;track.classList.remove('is-dragging');settle();schedule()}});
  track.addEventListener('click',e=>{if(dragged){e.preventDefault();e.stopPropagation();dragged=false}},true);
  track.addEventListener('dragstart',e=>e.preventDefault());
  carousel.addEventListener('pointerenter',e=>{if(e.pointerType==='mouse'){hovered=true;schedule()}});carousel.addEventListener('pointerleave',()=>{hovered=false;schedule()});carousel.addEventListener('focusin',()=>{focused=true;schedule()});carousel.addEventListener('focusout',()=>{requestAnimationFrame(()=>{focused=carousel.contains(document.activeElement);schedule()})});
  document.addEventListener('visibilitychange',schedule);reduceMotion.addEventListener('change',schedule);viewer?.addEventListener('close',schedule);
  new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;schedule()},{threshold:.2}).observe(carousel);
- new ResizeObserver(()=>go(index,false)).observe(track);
+ let trackWidth=0;
+ new ResizeObserver(()=>{if(track.clientWidth!==trackWidth){trackWidth=track.clientWidth;clearTimeout(scrollTimer);go(index,false)}}).observe(track);
  go(0,false);
+}
+
+// Track the section being read without changing URL history or keyboard focus.
+const sectionLinks=[...document.querySelectorAll('.subnav a[href^="#"],.sidebar-links a[href^="#"]')];
+if(sectionLinks.length){
+ const targets=sectionLinks.map(a=>({a,section:document.querySelector(a.getAttribute('href'))})).filter(x=>x.section);
+ let pending=false;
+ function updateSection(){
+  pending=false;const edge=document.querySelector('.site-header').offsetHeight+140;
+  const active=targets.filter(x=>x.section.getBoundingClientRect().top<=edge).at(-1)||targets[0];
+  for(const {a} of targets){if(a===active.a)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current')}
+ }
+ addEventListener('scroll',()=>{if(!pending){pending=true;requestAnimationFrame(updateSection)}},{passive:true});
+ addEventListener('resize',updateSection);updateSection();
+}
+const pageHero=document.querySelector('.page-hero');
+if(pageHero){
+ let inView=true;
+ const idle=()=>pageHero.classList.toggle('is-idle',!inView||document.hidden);
+ new IntersectionObserver(entries=>{inView=entries[0].isIntersecting;idle()}).observe(pageHero);
+ document.addEventListener('visibilitychange',idle);
 }
 
 // Ambient wireframe follows the dark blue technology background of the reference.
